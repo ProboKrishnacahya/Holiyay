@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0420198F2832306200A4A74F /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420198E2832306200A4A74F /* ExploreView.swift */; };
+		042019912832308E00A4A74F /* BookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042019902832308E00A4A74F /* BookmarkView.swift */; };
+		042019932832309D00A4A74F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042019922832309D00A4A74F /* ProfileView.swift */; };
+		0420199528323CFF00A4A74F /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420199428323CFF00A4A74F /* CategoryItem.swift */; };
+		042019972832485A00A4A74F /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042019962832485A00A4A74F /* CategoryRow.swift */; };
+		04516D58282252CB0092309D /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04516D57282252CB0092309D /* SplashScreenView.swift */; };
+		04516D5B28226DA70092309D /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04516D5A28226DA70092309D /* Destination.swift */; };
+		045E1A5F28354363007DE473 /* ProfileEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E1A5E28354363007DE473 /* ProfileEdit.swift */; };
+		04D5240F2832678E00169F39 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5240E2832678E00169F39 /* PageView.swift */; };
+		04D52411283267AD00169F39 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52410283267AD00169F39 /* PageViewController.swift */; };
+		04D52413283267C700169F39 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52412283267C700169F39 /* PageControl.swift */; };
+		04D52415283267F200169F39 /* CarouselComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52414283267F200169F39 /* CarouselComponent.swift */; };
+		04E35CE0282BB90F00EC3F12 /* DestinationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E35CDF282BB90F00EC3F12 /* DestinationRow.swift */; };
+		04E35CE2282BB91C00EC3F12 /* DestinationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E35CE1282BB91C00EC3F12 /* DestinationList.swift */; };
+		04E35CE4282BB93100EC3F12 /* DestinationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E35CE3282BB93100EC3F12 /* DestinationDetail.swift */; };
+		04E35CE9282BBE5300EC3F12 /* destinationData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04E35CE8282BBE5300EC3F12 /* destinationData.json */; };
+		04E35CEB282BBF4200EC3F12 /* DestinationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E35CEA282BBF4200EC3F12 /* DestinationData.swift */; };
+		04E35CED282BBFB800EC3F12 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E35CEC282BBFB800EC3F12 /* Profile.swift */; };
+		04E35CF0282BC06100EC3F12 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E35CEF282BC06100EC3F12 /* MapView.swift */; };
+		04F6784C2817CBD40098D820 /* HoliyayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6784B2817CBD40098D820 /* HoliyayApp.swift */; };
+		04F6784E2817CBD40098D820 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6784D2817CBD40098D820 /* ContentView.swift */; };
+		04F678502817CBD50098D820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F6784F2817CBD50098D820 /* Assets.xcassets */; };
+		04F678532817CBD50098D820 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F678522817CBD50098D820 /* Preview Assets.xcassets */; };
+		04F6785D2817CBD50098D820 /* HoliyayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6785C2817CBD50098D820 /* HoliyayTests.swift */; };
+		04F678672817CBD50098D820 /* HoliyayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F678662817CBD50098D820 /* HoliyayUITests.swift */; };
+		04F678692817CBD50098D820 /* HoliyayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F678682817CBD50098D820 /* HoliyayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F678592817CBD50098D820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F678402817CBD40098D820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F678472817CBD40098D820;
+			remoteInfo = Holiyay;
+		};
+		04F678632817CBD50098D820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F678402817CBD40098D820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F678472817CBD40098D820;
+			remoteInfo = Holiyay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0420198E2832306200A4A74F /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		042019902832308E00A4A74F /* BookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkView.swift; sourceTree = "<group>"; };
+		042019922832309D00A4A74F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0420199428323CFF00A4A74F /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		042019962832485A00A4A74F /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		04417675281FCDAA0058F98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04516D57282252CB0092309D /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		04516D5A28226DA70092309D /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		045E1A5E28354363007DE473 /* ProfileEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEdit.swift; sourceTree = "<group>"; };
+		04D5240E2832678E00169F39 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		04D52410283267AD00169F39 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		04D52412283267C700169F39 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		04D52414283267F200169F39 /* CarouselComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselComponent.swift; sourceTree = "<group>"; };
+		04E35CDF282BB90F00EC3F12 /* DestinationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationRow.swift; sourceTree = "<group>"; };
+		04E35CE1282BB91C00EC3F12 /* DestinationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationList.swift; sourceTree = "<group>"; };
+		04E35CE3282BB93100EC3F12 /* DestinationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationDetail.swift; sourceTree = "<group>"; };
+		04E35CE8282BBE5300EC3F12 /* destinationData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = destinationData.json; sourceTree = "<group>"; };
+		04E35CEA282BBF4200EC3F12 /* DestinationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationData.swift; sourceTree = "<group>"; };
+		04E35CEC282BBFB800EC3F12 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		04E35CEF282BC06100EC3F12 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		04F678482817CBD40098D820 /* Holiyay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holiyay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F6784B2817CBD40098D820 /* HoliyayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoliyayApp.swift; sourceTree = "<group>"; };
+		04F6784D2817CBD40098D820 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04F6784F2817CBD50098D820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F678522817CBD50098D820 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04F678582817CBD50098D820 /* HoliyayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoliyayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F6785C2817CBD50098D820 /* HoliyayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoliyayTests.swift; sourceTree = "<group>"; };
+		04F678622817CBD50098D820 /* HoliyayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoliyayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F678662817CBD50098D820 /* HoliyayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoliyayUITests.swift; sourceTree = "<group>"; };
+		04F678682817CBD50098D820 /* HoliyayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoliyayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F678452817CBD40098D820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F678552817CBD50098D820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F6785F2817CBD50098D820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042DCEE9281EA6EC0078C139 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04E35CDD282BB8EF00EC3F12 /* Destinations */,
+				04E35CD3282BB71E00EC3F12 /* Bookmark */,
+				04E35CD5282BB75B00EC3F12 /* Explore */,
+				04E35CD4282BB72500EC3F12 /* Profile */,
+				04F6784D2817CBD40098D820 /* ContentView.swift */,
+				04516D57282252CB0092309D /* SplashScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04516D5928226D8C0092309D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04516D5A28226DA70092309D /* Destination.swift */,
+				04E35CEA282BBF4200EC3F12 /* DestinationData.swift */,
+				04E35CEC282BBFB800EC3F12 /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04E35CD3282BB71E00EC3F12 /* Bookmark */ = {
+			isa = PBXGroup;
+			children = (
+				042019902832308E00A4A74F /* BookmarkView.swift */,
+			);
+			path = Bookmark;
+			sourceTree = "<group>";
+		};
+		04E35CD4282BB72500EC3F12 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				042019922832309D00A4A74F /* ProfileView.swift */,
+				045E1A5E28354363007DE473 /* ProfileEdit.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		04E35CD5282BB75B00EC3F12 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				0420198E2832306200A4A74F /* ExploreView.swift */,
+				0420199428323CFF00A4A74F /* CategoryItem.swift */,
+				042019962832485A00A4A74F /* CategoryRow.swift */,
+				04D5240E2832678E00169F39 /* PageView.swift */,
+				04D52410283267AD00169F39 /* PageViewController.swift */,
+				04D52412283267C700169F39 /* PageControl.swift */,
+				04D52414283267F200169F39 /* CarouselComponent.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		04E35CDD282BB8EF00EC3F12 /* Destinations */ = {
+			isa = PBXGroup;
+			children = (
+				04E35CDF282BB90F00EC3F12 /* DestinationRow.swift */,
+				04E35CE1282BB91C00EC3F12 /* DestinationList.swift */,
+				04E35CE3282BB93100EC3F12 /* DestinationDetail.swift */,
+			);
+			path = Destinations;
+			sourceTree = "<group>";
+		};
+		04E35CE5282BBDA300EC3F12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04E35CE8282BBE5300EC3F12 /* destinationData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04E35CEE282BC04D00EC3F12 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				04E35CEF282BC06100EC3F12 /* MapView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		04F6783F2817CBD40098D820 = {
+			isa = PBXGroup;
+			children = (
+				04F6784A2817CBD40098D820 /* Holiyay */,
+				04F6785B2817CBD50098D820 /* HoliyayTests */,
+				04F678652817CBD50098D820 /* HoliyayUITests */,
+				04F678492817CBD40098D820 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F678492817CBD40098D820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F678482817CBD40098D820 /* Holiyay.app */,
+				04F678582817CBD50098D820 /* HoliyayTests.xctest */,
+				04F678622817CBD50098D820 /* HoliyayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F6784A2817CBD40098D820 /* Holiyay */ = {
+			isa = PBXGroup;
+			children = (
+				04E35CEE282BC04D00EC3F12 /* Helpers */,
+				04E35CE5282BBDA300EC3F12 /* Resources */,
+				04516D5928226D8C0092309D /* Model */,
+				042DCEE9281EA6EC0078C139 /* Views */,
+				04F6784B2817CBD40098D820 /* HoliyayApp.swift */,
+				04F6784F2817CBD50098D820 /* Assets.xcassets */,
+				04417675281FCDAA0058F98B /* Info.plist */,
+				04F678512817CBD50098D820 /* Preview Content */,
+			);
+			path = Holiyay;
+			sourceTree = "<group>";
+		};
+		04F678512817CBD50098D820 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04F678522817CBD50098D820 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04F6785B2817CBD50098D820 /* HoliyayTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F6785C2817CBD50098D820 /* HoliyayTests.swift */,
+			);
+			path = HoliyayTests;
+			sourceTree = "<group>";
+		};
+		04F678652817CBD50098D820 /* HoliyayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04F678662817CBD50098D820 /* HoliyayUITests.swift */,
+				04F678682817CBD50098D820 /* HoliyayUITestsLaunchTests.swift */,
+			);
+			path = HoliyayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F678472817CBD40098D820 /* Holiyay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F6786C2817CBD50098D820 /* Build configuration list for PBXNativeTarget "Holiyay" */;
+			buildPhases = (
+				04F678442817CBD40098D820 /* Sources */,
+				04F678452817CBD40098D820 /* Frameworks */,
+				04F678462817CBD40098D820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Holiyay;
+			productName = Holiyay;
+			productReference = 04F678482817CBD40098D820 /* Holiyay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F678572817CBD50098D820 /* HoliyayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F6786F2817CBD50098D820 /* Build configuration list for PBXNativeTarget "HoliyayTests" */;
+			buildPhases = (
+				04F678542817CBD50098D820 /* Sources */,
+				04F678552817CBD50098D820 /* Frameworks */,
+				04F678562817CBD50098D820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F6785A2817CBD50098D820 /* PBXTargetDependency */,
+			);
+			name = HoliyayTests;
+			productName = HoliyayTests;
+			productReference = 04F678582817CBD50098D820 /* HoliyayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04F678612817CBD50098D820 /* HoliyayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F678722817CBD50098D820 /* Build configuration list for PBXNativeTarget "HoliyayUITests" */;
+			buildPhases = (
+				04F6785E2817CBD50098D820 /* Sources */,
+				04F6785F2817CBD50098D820 /* Frameworks */,
+				04F678602817CBD50098D820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F678642817CBD50098D820 /* PBXTargetDependency */,
+			);
+			name = HoliyayUITests;
+			productName = HoliyayUITests;
+			productReference = 04F678622817CBD50098D820 /* HoliyayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F678402817CBD40098D820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					04F678472817CBD40098D820 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					04F678572817CBD50098D820 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 04F678472817CBD40098D820;
+					};
+					04F678612817CBD50098D820 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 04F678472817CBD40098D820;
+					};
+				};
+			};
+			buildConfigurationList = 04F678432817CBD40098D820 /* Build configuration list for PBXProject "Holiyay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F6783F2817CBD40098D820;
+			productRefGroup = 04F678492817CBD40098D820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F678472817CBD40098D820 /* Holiyay */,
+				04F678572817CBD50098D820 /* HoliyayTests */,
+				04F678612817CBD50098D820 /* HoliyayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F678462817CBD40098D820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E35CE9282BBE5300EC3F12 /* destinationData.json in Resources */,
+				04F678532817CBD50098D820 /* Preview Assets.xcassets in Resources */,
+				04F678502817CBD50098D820 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F678562817CBD50098D820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F678602817CBD50098D820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F678442817CBD40098D820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0420198F2832306200A4A74F /* ExploreView.swift in Sources */,
+				042019932832309D00A4A74F /* ProfileView.swift in Sources */,
+				04D52415283267F200169F39 /* CarouselComponent.swift in Sources */,
+				04516D58282252CB0092309D /* SplashScreenView.swift in Sources */,
+				04E35CED282BBFB800EC3F12 /* Profile.swift in Sources */,
+				04F6784E2817CBD40098D820 /* ContentView.swift in Sources */,
+				04E35CF0282BC06100EC3F12 /* MapView.swift in Sources */,
+				04516D5B28226DA70092309D /* Destination.swift in Sources */,
+				042019972832485A00A4A74F /* CategoryRow.swift in Sources */,
+				042019912832308E00A4A74F /* BookmarkView.swift in Sources */,
+				04F6784C2817CBD40098D820 /* HoliyayApp.swift in Sources */,
+				04E35CE0282BB90F00EC3F12 /* DestinationRow.swift in Sources */,
+				0420199528323CFF00A4A74F /* CategoryItem.swift in Sources */,
+				04E35CE2282BB91C00EC3F12 /* DestinationList.swift in Sources */,
+				04E35CEB282BBF4200EC3F12 /* DestinationData.swift in Sources */,
+				045E1A5F28354363007DE473 /* ProfileEdit.swift in Sources */,
+				04D52411283267AD00169F39 /* PageViewController.swift in Sources */,
+				04D5240F2832678E00169F39 /* PageView.swift in Sources */,
+				04E35CE4282BB93100EC3F12 /* DestinationDetail.swift in Sources */,
+				04D52413283267C700169F39 /* PageControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F678542817CBD50098D820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F6785D2817CBD50098D820 /* HoliyayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F6785E2817CBD50098D820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F678692817CBD50098D820 /* HoliyayUITestsLaunchTests.swift in Sources */,
+				04F678672817CBD50098D820 /* HoliyayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F6785A2817CBD50098D820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F678472817CBD40098D820 /* Holiyay */;
+			targetProxy = 04F678592817CBD50098D820 /* PBXContainerItemProxy */;
+		};
+		04F678642817CBD50098D820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F678472817CBD40098D820 /* Holiyay */;
+			targetProxy = 04F678632817CBD50098D820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04F6786A2817CBD50098D820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04F6786B2817CBD50098D820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F6786D2817CBD50098D820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Holiyay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Holiyay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.holiyay.Holiyay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F6786E2817CBD50098D820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Holiyay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Holiyay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.holiyay.Holiyay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04F678702817CBD50098D820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.holiyay.HoliyayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holiyay.app/Holiyay";
+			};
+			name = Debug;
+		};
+		04F678712817CBD50098D820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.holiyay.HoliyayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holiyay.app/Holiyay";
+			};
+			name = Release;
+		};
+		04F678732817CBD50098D820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.holiyay.HoliyayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Holiyay;
+			};
+			name = Debug;
+		};
+		04F678742817CBD50098D820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.holiyay.HoliyayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Holiyay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F678432817CBD40098D820 /* Build configuration list for PBXProject "Holiyay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F6786A2817CBD50098D820 /* Debug */,
+				04F6786B2817CBD50098D820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F6786C2817CBD50098D820 /* Build configuration list for PBXNativeTarget "Holiyay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F6786D2817CBD50098D820 /* Debug */,
+				04F6786E2817CBD50098D820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F6786F2817CBD50098D820 /* Build configuration list for PBXNativeTarget "HoliyayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F678702817CBD50098D820 /* Debug */,
+				04F678712817CBD50098D820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F678722817CBD50098D820 /* Build configuration list for PBXNativeTarget "HoliyayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F678732817CBD50098D820 /* Debug */,
+				04F678742817CBD50098D820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F678402817CBD40098D820 /* Project object */;
+}
