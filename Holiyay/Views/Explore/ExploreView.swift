@@ -9,18 +9,20 @@ import SwiftUI
 
 struct ExploreView: View {
     @EnvironmentObject var destinationData: DestinationData
+    @State private var selectedDestination: Destination?
     @State private var showDetail = true
     //var destination: Destination
     
+    var index: Int? {
+        destinationData.destinations.firstIndex(where: { $0.id == selectedDestination?.id })
+    }
+    
     var body: some View {
         NavigationView {
-            List {
-                PageView(pages: destinationData.features.map { CarouselComponent(destination: $0) })
-                    .aspectRatio(3 / 2, contentMode: .fit)
-                    .listRowInsets(EdgeInsets())
-                
+            
+            VStack {
                 Text("Start your memorable holiday")
-                    .font(.title)
+                    .font(.system(size: 26))
                     .fontWeight(.black)
                     .padding(.vertical)
                 
@@ -31,27 +33,28 @@ struct ExploreView: View {
                     
                     Spacer()
                     
-                    Button {
-                        showDetail.toggle()
-                    } label: {
-                        Label("Explore", systemImage: "chevron.down")
-                            .foregroundColor(Color("Accent"))
-                            .labelStyle(.iconOnly)
-                            .imageScale(.large)
-                            .rotationEffect(.degrees(showDetail ? 0 : 180))
-                    }
-                    
-                    if showDetail {
-                        //                        ExploreView(destination: destination)
-                        Text("Beaches")
+                    VStack {
+                        Button {
+                            showDetail.toggle()
+                        } label: {
+                            Label("Explore", systemImage: "chevron.down")
+                                .foregroundColor(Color("Accent"))
+                                .labelStyle(.iconOnly)
+                                .imageScale(.large)
+                                .rotationEffect(.degrees(showDetail ? 0 : 180))
+                        }
+                        
+                        if !showDetail {
+                            Text("s")
+                        }
                     }
                 }
             }
-            .listStyle(.inset)
-            .ignoresSafeArea()
+            .padding()
         }
     }
 }
+
 
 struct ExploreView_Previews: PreviewProvider {
     static var previews: some View {

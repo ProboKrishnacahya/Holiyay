@@ -13,21 +13,29 @@ struct ProfileView: View {
     
     var body: some View {
         NavigationView {
-            Text("Keep your identity updated")
-                .font(.title)
-                .fontWeight(.black)
-                .frame(maxHeight: .infinity, alignment: .top)
-                .toolbar {
-                    Button {
-                        editProfile.toggle()
-                    } label: {
-                        Label("Edit Profile", systemImage: "pencil")
+            VStack {
+                Text("Keep your identity updated")
+                    .font(.title)
+                    .fontWeight(.black)
+                    .toolbar {
+                        Button {
+                            editProfile.toggle()
+                        } label: {
+                            Label("Edit Profile", systemImage: "pencil")
+                        }
                     }
-                }
-//                .sheet(isPresented: $editProfile) {
-//                    ProfileEdit()
-//                        .environmentObject(destinationData)
-//                }
+                //                .sheet(isPresented: $editProfile) {
+                //                    ProfileEdit()
+                //                        .environmentObject(destinationData)
+                //                }
+                
+                Image(systemName: "person.text.rectangle.fill")
+                    .symbolRenderingMode(.hierarchical)
+                    .font(.system(size: 96))
+                    .foregroundColor(Color("Primary"))
+                    .padding()
+            }
+            .frame(maxHeight: .infinity, alignment: .top)
         }
     }
 }

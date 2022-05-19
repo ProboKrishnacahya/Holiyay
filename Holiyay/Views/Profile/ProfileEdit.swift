@@ -64,6 +64,8 @@ struct Dropdown: View {
 struct ProfileEdit: View {
     @State private var shouldShowDropdown = false
     @State private var selectedOption: DropdownOption? = nil
+    @State private var selected = 1
+    
     var placeholder: String
     var options: [DropdownOption]
     var onOptionSelected: ((_ option: DropdownOption) -> Void)?
@@ -109,6 +111,7 @@ struct ProfileEdit: View {
         .background(
             RoundedRectangle(cornerRadius: 5).fill(Color.white)
         )
+        
     }
 }
 
@@ -128,7 +131,6 @@ struct ProfileEdit_Previews: PreviewProvider {
         DropdownOption(key: uniqueKey, value: "Indonesia"),
         DropdownOption(key: uniqueKey, value: "Indonesia")
     ]
-    
     
     static var previews: some View {
         VStack(spacing: 20) {

@@ -1,7 +1,7 @@
 # Holiyay
 > Assesment for Learning 4 Advanced Mobile Application Development 2021 - 2022 Genap (Semester 4) Informatika Universitas Ciputra Surabaya.
 
-### 👨‍💻👩‍💻 Tentang Pengembang
+### 👨‍💻 Tentang Pengembang
 0706012010039 - [Probo Krishnacahya](https://rebrand.ly/probo-krishnacahya)
 
 ### 📱 Tentang Aplikasi

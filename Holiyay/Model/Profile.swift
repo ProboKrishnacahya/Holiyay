@@ -8,19 +8,19 @@
 import Foundation
 
 struct Profile {
-    var username: String
-    var prefersNotifications = true
-    var seasonalPhoto = Season.winter
-    var goalDate = Date()
-
-    static let `default` = Profile(username: "Holiyay")
-
-    enum Season: String, CaseIterable, Identifiable {
-        case spring = "🌹"
-        case summer = "☀️"
-        case autumn = "🍁"
-        case winter = "❄️"
-
+    var firstName: String
+    var lastName: String
+    //var countryOfDomicile: [DropdownOption]
+    var gender = Gender.male
+    var age: Int
+    
+    static let `default` = Profile(firstName: "Probo", lastName: "Krishnacahya", age: 19)
+    
+    enum Gender: String, CaseIterable, Identifiable {
+        case male = "Male"
+        case female = "Female"
+        case none = "Rather not say"
+        
         var id: String { rawValue }
     }
 }

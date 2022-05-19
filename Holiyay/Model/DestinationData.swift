@@ -12,10 +12,6 @@ final class DestinationData: ObservableObject {
     @Published var destinations: [Destination] = load("destinationData.json")
     @Published var profile = Profile.default
     
-    var features: [Destination] {
-        destinations.filter { $0.isFeatured }
-    }
-    
     var categories: [String: [Destination]] {
         Dictionary(
             grouping: destinations,

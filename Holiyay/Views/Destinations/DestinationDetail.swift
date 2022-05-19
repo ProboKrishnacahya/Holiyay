@@ -38,7 +38,7 @@ struct DestinationDetail: View {
                 
                 HStack(spacing:20) {
                     Button(action: {}) {
-                        Text(destination.name)
+                        Text(destination.category.rawValue)
                             .padding()
                     }
                     .background(Capsule().stroke(lineWidth: 2))
@@ -48,7 +48,7 @@ struct DestinationDetail: View {
                         .font(.system(size: 18, weight: .medium, design: .default))
                 }
                 .font(.subheadline)
-                .foregroundColor(.secondary)
+                .foregroundColor(Color("Muted"))
                 
                 Divider()
                     .padding(.vertical, 7.5)
@@ -109,7 +109,7 @@ struct FullScreenModalView: View {
             .padding(.horizontal)
             
             Text("Set Visit Date on: \(visitDate.formatted(date: .long, time: .omitted))")
-                .foregroundColor(.secondary)
+                .foregroundColor(Color("Muted"))
                 .padding()
             
             Button {

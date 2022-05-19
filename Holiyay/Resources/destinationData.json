@@ -4,10 +4,8 @@
         "category": "Beaches",
         "city": "Badung",
         "country": "Indonesia",
-        "id": 1001,
-        "isFeatured": true,
-        "isFavorite": true,
-        "park": "Joshua Tree National Park",
+        "id": 1,
+        "isBookmark": true,
         "coordinates": {
             "longitude": -152.665167,
             "latitude": 59.980167
@@ -16,179 +14,268 @@
         "imageName": "pandawa"
     },
     {
-        "name": "Silver Salmon Creek",
-        "category": "Deserts",
-        "city": "Port Alsworth",
-        "country": "Alaska",
-        "id": 1002,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Lake Clark National Park and Preserve",
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 2,
+        "isBookmark": true,
         "coordinates": {
             "longitude": -152.665167,
             "latitude": 59.980167
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
         "imageName": "pandawa"
     },
     {
-        "name": "Chilkoot Trail",
-        "category": "Mountains",
-        "city": "Skagway",
-        "country": "Alaska",
-        "id": 1003,
-        "isFeatured": false,
-        "isFavorite": true,
-        "park": "Klondike Gold Rush National Historical Park",
-        "coordinates": {
-            "longitude": -135.334571,
-            "latitude": 59.560551
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "pandawa"
-    },
-    {
-        "name": "St. Mary Lake",
-        "category": "Deserts",
-        "city": "Browning",
-        "country": "Montana",
-        "id": 1004,
-        "isFeatured": true,
-        "isFavorite": true,
-        "park": "Glacier National Park",
-        "coordinates": {
-            "longitude": -113.536248,
-            "latitude": 48.69423
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "pandawa"
-    },
-    {
-        "name": "Twin Lake",
-        "category": "Deserts",
-        "city": "Twin Deserts",
-        "country": "Alaska",
-        "id": 1005,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Lake Clark National Park and Preserve",
-        "coordinates": {
-            "longitude": -153.849883,
-            "latitude": 60.641684
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "pandawa"
-    },
-    {
-        "name": "Lake McDonald",
-        "category": "Mountains",
-        "city": "West Glacier",
-        "country": "Montana",
-        "id": 1006,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Glacier National Park",
-        "coordinates": {
-            "longitude": -113.934831,
-            "latitude": 48.56002
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "pandawa"
-    },
-    {
-        "name": "Charley Beaches",
+        "name": "Pandawa",
         "category": "Beaches",
-        "city": "Eaking",
-        "country": "Alaska",
-        "id": 1007,
-        "isFeatured": true,
-        "isFavorite": false,
-        "park": "Charley Beaches National Preserve",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 3,
+        "isBookmark": true,
         "coordinates": {
-            "longitude": -143.122586,
-            "latitude": 65.350021
+            "longitude": -152.665167,
+            "latitude": 59.980167
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
         "imageName": "pandawa"
     },
     {
-        "name": "Icy Bay",
-        "category": "Mountains",
-        "city": "Icy Bay",
-        "country": "Alaska",
-        "id": 1008,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Wrangell-St. Elias National Park and Preserve",
-        "coordinates": {
-            "longitude": -141.518167,
-            "latitude": 60.089917
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "pandawa"
-    },
-    {
-        "name": "Rainbow Lake",
-        "category": "Deserts",
-        "city": "Willow",
-        "country": "Alaska",
-        "id": 1009,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "country Recreation Area",
-        "coordinates": {
-            "longitude": -150.086103,
-            "latitude": 61.694334
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "pandawa"
-    },
-    {
-        "name": "Hidden Lake",
-        "category": "Deserts",
-        "city": "Newhalem",
-        "country": "Washington",
-        "id": 1010,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "North Cascades National Park",
-        "coordinates": {
-            "longitude": -121.17799,
-            "latitude": 48.495442
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "pandawa"
-    },
-    {
-        "name": "Chincoteague",
+        "name": "Pandawa",
         "category": "Beaches",
-        "city": "Chincoteague",
-        "country": "Virginia",
-        "id": 1011,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Chincoteague National Wildlife Refuge",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 4,
+        "isBookmark": true,
         "coordinates": {
-            "longitude": -75.383212,
-            "latitude": 37.91531
+            "longitude": -152.665167,
+            "latitude": 59.980167
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
         "imageName": "pandawa"
     },
     {
-        "name": "Lake Umbagog",
-        "category": "Deserts",
-        "city": "Errol",
-        "country": "New Hampshire",
-        "id": 1012,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Umbagog National Wildlife Refuge",
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 5,
+        "isBookmark": true,
         "coordinates": {
-            "longitude": -71.056816,
-            "latitude": 44.747408
+            "longitude": -152.665167,
+            "latitude": 59.980167
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
+        "imageName": "pandawa"
+    },
+    {
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 6,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
+        "imageName": "pandawa"
+    },
+    {
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 7,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
+        "imageName": "pandawa"
+    },
+    {
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 8,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
+        "imageName": "pandawa"
+    },
+    {
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 9,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
+        "imageName": "pandawa"
+    },{
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 10,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
+        "imageName": "pandawa"
+    },
+    {
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 11,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
+        "imageName": "pandawa"
+    },
+    {
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 12,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
+        "imageName": "pandawa"
+    },
+    {
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 13,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
+        "imageName": "pandawa"
+    },
+    {
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 14,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
+        "imageName": "pandawa"
+    },
+    {
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 15,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
+        "imageName": "pandawa"
+    },
+    {
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 16,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
+        "imageName": "pandawa"
+    },
+    {
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 17,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
+        "imageName": "pandawa"
+    },
+    {
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 18,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
+        "imageName": "pandawa"
+    },
+    {
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 19,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
+        "imageName": "pandawa"
+    },
+    {
+        "name": "Pandawa",
+        "category": "Beaches",
+        "city": "Badung",
+        "country": "Indonesia",
+        "id": 20,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
         "imageName": "pandawa"
     }
 ]
