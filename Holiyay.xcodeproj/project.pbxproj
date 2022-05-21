@@ -18,7 +18,6 @@
 		04516D5B28226DA70092309D /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04516D5A28226DA70092309D /* Destination.swift */; };
 		045E1A5F28354363007DE473 /* ProfileEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E1A5E28354363007DE473 /* ProfileEdit.swift */; };
 		04C32DFA28378FE60073FEF9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C32DF928378FE60073FEF9 /* ProfileView.swift */; };
-		04E35CE2282BB91C00EC3F12 /* DestinationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E35CE1282BB91C00EC3F12 /* DestinationList.swift */; };
 		04E35CE4282BB93100EC3F12 /* DestinationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E35CE3282BB93100EC3F12 /* DestinationDetail.swift */; };
 		04E35CE9282BBE5300EC3F12 /* destinationData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04E35CE8282BBE5300EC3F12 /* destinationData.json */; };
 		04E35CEB282BBF4200EC3F12 /* DestinationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E35CEA282BBF4200EC3F12 /* DestinationData.swift */; };
@@ -63,7 +62,6 @@
 		04516D5A28226DA70092309D /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 		045E1A5E28354363007DE473 /* ProfileEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEdit.swift; sourceTree = "<group>"; };
 		04C32DF928378FE60073FEF9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		04E35CE1282BB91C00EC3F12 /* DestinationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationList.swift; sourceTree = "<group>"; };
 		04E35CE3282BB93100EC3F12 /* DestinationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationDetail.swift; sourceTree = "<group>"; };
 		04E35CE8282BBE5300EC3F12 /* destinationData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = destinationData.json; sourceTree = "<group>"; };
 		04E35CEA282BBF4200EC3F12 /* DestinationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationData.swift; sourceTree = "<group>"; };
@@ -140,8 +138,8 @@
 		04E35CD4282BB72500EC3F12 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				042019922832309D00A4A74F /* ProfileHost.swift */,
 				045E1A5E28354363007DE473 /* ProfileEdit.swift */,
+				042019922832309D00A4A74F /* ProfileHost.swift */,
 				04C32DF928378FE60073FEF9 /* ProfileView.swift */,
 			);
 			path = Profile;
@@ -160,7 +158,6 @@
 		04E35CDD282BB8EF00EC3F12 /* Destinations */ = {
 			isa = PBXGroup;
 			children = (
-				04E35CE1282BB91C00EC3F12 /* DestinationList.swift */,
 				04E35CE3282BB93100EC3F12 /* DestinationDetail.swift */,
 			);
 			path = Destinations;
@@ -177,9 +174,9 @@
 		04E35CEE282BC04D00EC3F12 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				04E35CEF282BC06100EC3F12 /* MapView.swift */,
 				040FC4D02836357000C51E58 /* BookmarkCardView.swift */,
 				040FC4D22836359500C51E58 /* ExploreCardView.swift */,
+				04E35CEF282BC06100EC3F12 /* MapView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -207,14 +204,14 @@
 		04F6784A2817CBD40098D820 /* Holiyay */ = {
 			isa = PBXGroup;
 			children = (
-				04E35CEE282BC04D00EC3F12 /* Helpers */,
-				04E35CE5282BBDA300EC3F12 /* Resources */,
-				04516D5928226D8C0092309D /* Model */,
-				042DCEE9281EA6EC0078C139 /* Views */,
+				04417675281FCDAA0058F98B /* Info.plist */,
 				04F6784B2817CBD40098D820 /* HoliyayApp.swift */,
 				04F6784F2817CBD50098D820 /* Assets.xcassets */,
-				04417675281FCDAA0058F98B /* Info.plist */,
+				04E35CEE282BC04D00EC3F12 /* Helpers */,
+				04516D5928226D8C0092309D /* Model */,
 				04F678512817CBD50098D820 /* Preview Content */,
+				04E35CE5282BBDA300EC3F12 /* Resources */,
+				042DCEE9281EA6EC0078C139 /* Views */,
 			);
 			path = Holiyay;
 			sourceTree = "<group>";
@@ -388,7 +385,6 @@
 				04F6784C2817CBD40098D820 /* HoliyayApp.swift in Sources */,
 				0420199528323CFF00A4A74F /* CategoryItem.swift in Sources */,
 				040FC4D32836359500C51E58 /* ExploreCardView.swift in Sources */,
-				04E35CE2282BB91C00EC3F12 /* DestinationList.swift in Sources */,
 				04C32DFA28378FE60073FEF9 /* ProfileView.swift in Sources */,
 				04E35CEB282BBF4200EC3F12 /* DestinationData.swift in Sources */,
 				045E1A5F28354363007DE473 /* ProfileEdit.swift in Sources */,

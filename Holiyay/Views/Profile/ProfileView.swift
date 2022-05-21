@@ -28,28 +28,28 @@ struct ProfileView: View {
                         .padding()
                     
                     VStack(alignment: .leading, spacing: 20) {
-                        Text("\(Image(systemName: "quote.opening")) First Name")
+                        Text("\(Image(systemName: "quote.opening"))  First Name")
                             .bold()
                         Text(profile.firstName)
                             .foregroundColor(Color("Muted"))
                         
-                        Text("\(Image(systemName: "quote.closing")) Last Name")
+                        Text("\(Image(systemName: "quote.closing"))  Last Name")
                             .bold()
                         Text(profile.lastName)
                             .foregroundColor(Color("Muted"))
                         
-                        (Text("\(Image(systemName: "flag.fill")) Country of Domicile") +
+                        (Text("\(Image(systemName: "flag.fill"))  Country of Domicile") +
                          Text("                        "))
                             .bold()
                         Text(profile.lastName)
                             .foregroundColor(Color("Muted"))
                         
-                        Text("\(Image(systemName: "figure.stand")) Gender")
+                        Text("\(Image(systemName: "figure.stand"))  Gender")
                             .bold()
                         Text(profile.gender.rawValue)
                             .foregroundColor(Color("Muted"))
                         
-                        Text("\(Image(systemName: "number")) Age")
+                        Text("\(Image(systemName: "number"))  Age")
                             .bold()
                         Text(profile.age.description)
                             .foregroundColor(Color("Muted"))

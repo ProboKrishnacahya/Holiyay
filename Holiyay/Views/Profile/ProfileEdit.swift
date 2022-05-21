@@ -85,7 +85,6 @@ struct ProfileEdit: View {
                     .textContentType(.name)
             }
             
-            
             VStack(alignment: .leading) {
                 Picker("Country of Domicile", selection: $selectedCountry) {
                     ForEach(0..<countryOfDomicile.count) {

@@ -8,18 +8,11 @@
 import SwiftUI
 
 struct CategoryRow: View {
-    var categoryName: String
+    var moreImages: Image
     var items: [Destination]
     
     var body: some View {
         VStack {
-//            HStack {
-//                Text(categoryName)
-//                    .font(.title3)
-//                    .fontWeight(.semibold)
-//                Spacer()
-//            }
-            
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(items) { destination in
@@ -31,7 +24,6 @@ struct CategoryRow: View {
                     }
                 }
             }
-            .padding(.bottom)
         }
     }
 }
@@ -41,7 +33,7 @@ struct CategoryRow_Previews: PreviewProvider {
     
     static var previews: some View {
         CategoryRow(
-            categoryName: destinations[0].category.rawValue,
+            moreImages: destinations[0].thumbnail,
             items: Array(destinations.prefix(4))
         )
     }

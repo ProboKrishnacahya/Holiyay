@@ -13,7 +13,7 @@ struct BookmarkCardView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            destination.image
+            destination.thumbnail
                 .resizable()
                 .scaledToFit()
             
@@ -40,12 +40,8 @@ struct BookmarkCardView: View {
                     .foregroundColor(Color("Muted"))
                     .padding(.bottom)
                     
-                    Button {
-                    } label: {
-                        Label("Date", systemImage: "calendar")
-                            .frame(maxWidth: .infinity)
-                    }
-                    .buttonStyle(PrimaryButton())
+                    HolidayPlan()
+                        .padding(.bottom, 10)
                 }
             }
             .padding(20)

@@ -12,14 +12,11 @@ struct CategoryItem: View {
 
     var body: some View {
         VStack(alignment: .leading) {
-            destination.image
+            destination.thumbnail
                 .renderingMode(.original)
                 .resizable()
                 .frame(width: 160, height: 128)
                 .cornerRadius(8)
-//            Text(destination.name)
-//                .foregroundColor(.primary)
-//                .font(.caption)
         }
         .padding(.trailing, 15)
     }

@@ -25,10 +25,15 @@ struct Destination: Hashable, Codable, Identifiable {
         case mountains = "Mountains"
     }
     
-    private var imageName: String
-    var image: Image {
-        Image(imageName)
+    private var imageExploreBookmark: String
+    var thumbnail: Image {
+        Image(imageExploreBookmark)
     }
+    
+//    public var imageDetail: String
+//    var horizontal: Image {
+//        Image(imageDetail)
+//    }
     
     private var coordinates: Coordinates
     var locationCoordinate: CLLocationCoordinate2D {

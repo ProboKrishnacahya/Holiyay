@@ -29,8 +29,17 @@ struct ExploreView: View {
                         .fontWeight(.black)
                         .padding(.vertical)
                     
-                    DisclosureGroup("Beaches") {
-                        Text("Lorem Ipsum")
+                    ScrollView {
+                        DisclosureGroup("Beaches") {
+                            ForEach(destinations) { destination in
+                                NavigationLink {
+                                    DestinationDetail(destination: destination)
+                                } label: {
+                                    ExploreCardView(destination: destination)
+                                }
+                                .tag(destination)
+                            }
+                        }
                     }
                 }
             }

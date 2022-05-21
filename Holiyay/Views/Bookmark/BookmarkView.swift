@@ -29,8 +29,6 @@ struct BookmarkView: View {
         }
     }
     
-    var visitDate = Date()
-    
     var body: some View {
         NavigationView {
             VStack {

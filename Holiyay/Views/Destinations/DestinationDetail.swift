@@ -36,13 +36,11 @@ struct DestinationDetail: View {
                         .fontWeight(.heavy)
                 }
                 
-                HStack(spacing:20) {
-                    Button(action: {}) {
-                        Text(destination.category.rawValue)
-                            .padding()
-                    }
-                    .background(Capsule().stroke(lineWidth: 2))
-                    .font(.system(size: 18, weight: .semibold, design: .default))
+                HStack(spacing: 18) {
+                    Text(destination.category.rawValue)
+                        .padding(14)
+                        .background(Capsule().stroke(lineWidth: 2))
+                        .font(.system(size: 18, weight: .semibold, design: .default))
                     
                     Label(destination.city + ", " + destination.country, systemImage: "pin.fill")
                         .font(.system(size: 18, weight: .medium, design: .default))
