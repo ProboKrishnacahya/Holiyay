@@ -7,154 +7,125 @@
 
 import SwiftUI
 
-struct DropdownOption: Hashable {
-    let key: String
-    let value: String
-    
-    public static func == (lhs: DropdownOption, rhs: DropdownOption) -> Bool {
-        return lhs.key == rhs.key
-    }
-}
-
-struct DropdownRow: View {
-    var option: DropdownOption
-    var onOptionSelected: ((_ option: DropdownOption) -> Void)?
-    
-    var body: some View {
-        Button(action: {
-            if let onOptionSelected = self.onOptionSelected {
-                onOptionSelected(self.option)
-            }
-        }) {
-            HStack {
-                Text(self.option.value)
-                    .font(.system(size: 14))
-                    .foregroundColor(Color.black)
-                Spacer()
-            }
-        }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 5)
-    }
-}
-
-struct Dropdown: View {
-    var options: [DropdownOption]
-    var onOptionSelected: ((_ option: DropdownOption) -> Void)?
-    
-    var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 0) {
-                ForEach(self.options, id: \.self) { option in
-                    DropdownRow(option: option, onOptionSelected: self.onOptionSelected)
-                }
-            }
-        }
-        .frame(minHeight: CGFloat(options.count) * 30, maxHeight: 250)
-        .padding(.vertical, 5)
-        .background(Color.white)
-        .cornerRadius(5)
-        .overlay(
-            RoundedRectangle(cornerRadius: 5)
-                .stroke(Color.gray, lineWidth: 1)
-        )
-    }
-}
-
 struct ProfileEdit: View {
-    @State private var shouldShowDropdown = false
-    @State private var selectedOption: DropdownOption? = nil
-    @State private var selected = 1
+    @Binding var profile: Profile
+    @State private var selectedCountry = 0
+    @State private var number: Int = 1
     
-    var placeholder: String
-    var options: [DropdownOption]
-    var onOptionSelected: ((_ option: DropdownOption) -> Void)?
-    private let buttonHeight: CGFloat = 45
+    let countryOfDomicile = [
+        "Afghanistan",
+        "Albania",
+        "Algeria",
+        "Andorra",
+        "Angola",
+        "Antigua and Barbuda",
+        "Argentina",
+        "Armenia",
+        "Australia",
+        "Austria",
+        "Azerbaijan",
+        "Bahamas",
+        "Bahrain",
+        "Bangladesh",
+        "Barbados",
+        "Belarus",
+        "Belgium",
+        "Belize",
+        "Benin (Dahomey)",
+        "Bolivia",
+        "Bosnia and Herzegovina",
+        "Botswana",
+        "Brazil",
+        "Brunei",
+        "Brunswick and Lüneburg",
+        "Bulgaria",
+        "Burkina Faso (Upper Volta)",
+        "Burma",
+        "Burundi",
+        "Cabo Verde",
+        "Cambodia",
+        "Cameroon",
+        "Canada",
+        "Cayman Islands",
+        "Central African Republic",
+        "Chad",
+        "Chile",
+        "China",
+        "Colombia",
+        "Comoros",
+        "Congo Free State",
+        "Costa Rica",
+        "Cote d’Ivoire (Ivory Coast)",
+        "Croatia",
+        "Cuba",
+        "Cyprus",
+        "Czechia",
+        "Czechoslovakia"
+    ]
     
     var body: some View {
-        Button(action: {
-            self.shouldShowDropdown.toggle()
-        }) {
-            HStack {
-                Text(selectedOption == nil ? placeholder : selectedOption!.value)
-                    .font(.system(size: 14))
-                    .foregroundColor(selectedOption == nil ? Color.gray: Color.black)
+        List {
+            VStack(alignment: .center) {
+                Text("Keep your identity updated")
+                    .font(.title2)
+                    .fontWeight(.black)
+            }
+            
+            VStack(alignment: .leading) {
+                Text("First Name").bold()
+                TextField("First Name", text: $profile.firstName)
+                    .textFieldStyle(.roundedBorder)
+                    .textContentType(.name)
+            }
+            
+            VStack(alignment: .leading) {
+                Text("Last Name").bold()
+                TextField("Last Name", text: $profile.lastName)
+                    .textFieldStyle(.roundedBorder)
+                    .textContentType(.name)
+            }
+            
+            
+            VStack(alignment: .leading) {
+                Picker("Country of Domicile", selection: $selectedCountry) {
+                    ForEach(0..<countryOfDomicile.count) {
+                        Text(countryOfDomicile[$0])
+                    }
+                }
+                .pickerStyle(.inline)
+                .font(.body)
+                .padding(.top, 1)
+            }
+            
+            VStack(alignment: .leading, spacing: 10) {
+                Text("Gender").bold()
+                    .padding(.top, 5)
                 
-                Spacer()
+                Picker("Gender", selection: $profile.gender) {
+                    ForEach(Profile.Gender.allCases) { gender in
+                        Text(gender.rawValue).tag(gender)
+                    }
+                }
+                .pickerStyle(.segmented)
+            }
+            
+            VStack(alignment: .leading) {
+                Text("Age").bold()
                 
-                Image(systemName: self.shouldShowDropdown ? "arrowtriangle.up.fill" : "arrowtriangle.down.fill")
-                    .resizable()
-                    .frame(width: 9, height: 5)
-                    .font(Font.system(size: 9, weight: .medium))
-                    .foregroundColor(Color.black)
+                Picker("Your age", selection: $profile.age) {
+                    ForEach(1...100, id: \.self) { age in
+                        Text("\(age)")
+                    }
+                }
+                .pickerStyle(.menu)
             }
         }
-        .padding(.horizontal)
-        .cornerRadius(5)
-        .frame(width: .infinity, height: self.buttonHeight)
-        .overlay(
-            RoundedRectangle(cornerRadius: 5)
-                .stroke(Color.gray, lineWidth: 1)
-        )
-        .overlay(
-            VStack {
-                if self.shouldShowDropdown {
-                    Spacer(minLength: buttonHeight + 10)
-                    Dropdown(options: self.options, onOptionSelected: { option in
-                        shouldShowDropdown = false
-                        selectedOption = option
-                        self.onOptionSelected?(option)
-                    })
-                }
-            }, alignment: .topLeading
-        )
-        .background(
-            RoundedRectangle(cornerRadius: 5).fill(Color.white)
-        )
-        
+        .listStyle(.sidebar)
     }
 }
 
 struct ProfileEdit_Previews: PreviewProvider {
-    @State private static var address: String = ""
-    
-    static var uniqueKey: String {
-        UUID().uuidString
-    }
-    
-    static let options: [DropdownOption] = [
-        DropdownOption(key: uniqueKey, value: "Indonesia"),
-        DropdownOption(key: uniqueKey, value: "Indonesia"),
-        DropdownOption(key: uniqueKey, value: "Indonesia"),
-        DropdownOption(key: uniqueKey, value: "Indonesia"),
-        DropdownOption(key: uniqueKey, value: "Indonesia"),
-        DropdownOption(key: uniqueKey, value: "Indonesia"),
-        DropdownOption(key: uniqueKey, value: "Indonesia")
-    ]
-    
     static var previews: some View {
-        VStack(spacing: 20) {
-            ProfileEdit(
-                placeholder: "Country of Domicile",
-                options: options,
-                onOptionSelected: { option in
-                    print(option)
-                })
-                .padding(.horizontal)
-                .zIndex(1)
-            
-            Group {
-                TextField("Full Address", text: $address)
-                    .font(.system(size: 14))
-                    .padding(.horizontal)
-            }
-            .frame(width: .infinity, height: 45)
-            .overlay(
-                RoundedRectangle(cornerRadius: 5)
-                    .stroke(Color.gray, lineWidth: 1)
-            )
-            .padding(.horizontal)
-        }
+        ProfileEdit(profile: .constant(.default))
     }
 }
-

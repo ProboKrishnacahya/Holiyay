@@ -22,7 +22,7 @@ struct ContentView: View {
                     Text("Bookmark")
                 }
             
-            ProfileView()
+            ProfileHost()
                 .tabItem {
                     Image(systemName: "person")
                     Text("Profile")

@@ -13,7 +13,7 @@ struct BookmarkCardView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Image("pandawa")
+            destination.image
                 .resizable()
                 .scaledToFit()
             
@@ -52,7 +52,6 @@ struct BookmarkCardView: View {
         }
         .background(Color("Component"))
         .cornerRadius(16)
-        .padding()
     }
 }
 

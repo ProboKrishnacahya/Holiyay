@@ -37,7 +37,6 @@ struct BookmarkView: View {
                 Text("Realize your plan")
                     .font(.title)
                     .fontWeight(.black)
-                
                     .toolbar {
                         ToolbarItemGroup(placement: .navigationBarTrailing) {
                             Button(action: {
@@ -63,13 +62,13 @@ struct BookmarkView: View {
                         NavigationLink {
                             DestinationDetail(destination: destination)
                         } label: {
-                            DestinationRow(destination: destination)
+                            BookmarkCardView(destination: destination)
                         }
                         .tag(destination)
                     }
-                    BookmarkCardView(destination: DestinationData().destinations[0])
                 }
                 .frame(maxHeight: .infinity, alignment: .top)
+                .listStyle(.plain)
             }
         }
     }

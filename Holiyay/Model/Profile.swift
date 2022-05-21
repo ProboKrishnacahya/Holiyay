@@ -10,7 +10,6 @@ import Foundation
 struct Profile {
     var firstName: String
     var lastName: String
-    //var countryOfDomicile: [DropdownOption]
     var gender = Gender.male
     var age: Int
     
@@ -19,7 +18,7 @@ struct Profile {
     enum Gender: String, CaseIterable, Identifiable {
         case male = "Male"
         case female = "Female"
-        case none = "Rather not say"
+        case none = "Not Both"
         
         var id: String { rawValue }
     }

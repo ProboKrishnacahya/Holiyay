@@ -17,6 +17,8 @@ struct SplashScreenView: View {
             ContentView()
         } else {
             VStack {
+                Spacer()
+                
                 VStack {
                     Image("logo")
                         .resizable()
@@ -26,18 +28,22 @@ struct SplashScreenView: View {
                         .fontWeight(.black)
                         .foregroundColor(Color("Primary"))
                         .font(.system(size: 60))
-                        .padding(.bottom)
+                }
+                
+                Spacer()
+                
+                VStack {
                     Text("&copy; 2022 Archotech")
                         .fontWeight(.medium)
                         .foregroundColor(.gray)
                 }
-                .scaleEffect(size)
-                .opacity(opacity)
-                .onAppear {
-                    withAnimation(.easeIn(duration: 1.5)) {
-                        self.size = 0.85
-                        self.opacity = 1.0
-                    }
+            }
+            .scaleEffect(size)
+            .opacity(opacity)
+            .onAppear {
+                withAnimation(.easeIn(duration: 1.5)) {
+                    self.size = 0.85
+                    self.opacity = 1.0
                 }
             }
             .onAppear {
