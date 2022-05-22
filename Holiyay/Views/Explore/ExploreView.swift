@@ -9,45 +9,82 @@ import SwiftUI
 
 struct ExploreView: View {
     @EnvironmentObject var destinationData: DestinationData
-    @State private var selectedDestination: Destination?
-    @State private var showDetail = true
-    //var destination: Destination
-    
-    var index: Int? {
-        destinationData.destinations.firstIndex(where: { $0.id == selectedDestination?.id })
-    }
+    @State private var topExpanded: Bool = true
     
     var body: some View {
         NavigationView {
-            VStack {
-                Carousel()
-                    .frame(width: UIScreen.main.bounds.width - 40, height: 350)
-                
+            ScrollView {
                 VStack {
-                    Text("Start your memorable holiday")
-                        .font(.system(size: 26))
-                        .fontWeight(.black)
-                        .padding(.vertical)
+                    Carousel()
+                        .frame(width: UIScreen.main.bounds.width - 40, height: 350)
                     
-                    ScrollView {
-                        DisclosureGroup("Beaches") {
-                            ForEach(destinations) { destination in
-                                NavigationLink {
-                                    DestinationDetail(destination: destination)
-                                } label: {
-                                    ExploreCardView(destination: destination)
+                    VStack {
+                        Text("Start your memorable holiday")
+                            .font(.system(size: 26))
+                            .fontWeight(.black)
+                            .padding(.vertical)
+                        
+                        ScrollView {
+                            DisclosureGroup("Beaches", isExpanded: $topExpanded) {
+                                ForEach(destinations) { destination in
+                                    if destination.category.rawValue == "Beaches" {
+                                        NavigationLink {
+                                            DestinationDetail(destination: destination)
+                                        } label: {
+                                            ExploreCardView(destination: destination)
+                                        }
+                                        .tag(destination)
+                                    }
                                 }
-                                .tag(destination)
+                            }
+                            
+                            DisclosureGroup("Deserts") {
+                                ForEach(destinations) { destination in
+                                    if destination.category.rawValue == "Deserts" {
+                                        NavigationLink {
+                                            DestinationDetail(destination: destination)
+                                        } label: {
+                                            ExploreCardView(destination: destination)
+                                        }
+                                        .tag(destination)
+                                    }
+                                }
+                            }
+                            
+                            DisclosureGroup("Forests") {
+                                ForEach(destinations) { destination in
+                                    if destination.category.rawValue == "Forests" {
+                                        NavigationLink {
+                                            DestinationDetail(destination: destination)
+                                        } label: {
+                                            ExploreCardView(destination: destination)
+                                        }
+                                        .tag(destination)
+                                    }
+                                }
+                            }
+                            
+                            DisclosureGroup("Mountains") {
+                                ForEach(destinations) { destination in
+                                    if destination.category.rawValue == "Mountains" {
+                                        NavigationLink {
+                                            DestinationDetail(destination: destination)
+                                        } label: {
+                                            ExploreCardView(destination: destination)
+                                        }
+                                        .tag(destination)
+                                    }
+                                }
                             }
                         }
                     }
                 }
+                .padding()
+                .frame(maxHeight: .infinity, alignment: .top)
+                .padding(.top, 20)
+                .navigationBarHidden(true)
+                .ignoresSafeArea()
             }
-            .padding()
-            .frame(maxHeight: .infinity, alignment: .top)
-            .padding(.top, 20)
-            .navigationBarHidden(true)
-            .ignoresSafeArea()
         }
     }
 }

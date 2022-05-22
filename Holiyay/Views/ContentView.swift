@@ -66,15 +66,3 @@ struct SecondaryButton: ButtonStyle {
             .cornerRadius(8)
     }
 }
-
-struct HolidayPlan: View {
-    var body: some View{
-        Label("Date", systemImage: "calendar")
-            .frame(maxWidth: .infinity)
-            .padding()
-            .background(Color("Primary"))
-            .foregroundColor(.white)
-            .font(.body.bold())
-            .cornerRadius(8)
-    }
-}

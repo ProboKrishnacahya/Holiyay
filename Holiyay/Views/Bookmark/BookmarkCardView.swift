@@ -40,7 +40,13 @@ struct BookmarkCardView: View {
                     .foregroundColor(Color("Muted"))
                     .padding(.bottom)
                     
-                    HolidayPlan()
+                    Label("Date", systemImage: "calendar")
+                        .frame(maxWidth: .infinity)
+                        .padding()
+                        .background(Color("Primary"))
+                        .foregroundColor(.white)
+                        .font(.body.bold())
+                        .cornerRadius(8)
                         .padding(.bottom, 10)
                 }
             }

@@ -35,7 +35,7 @@ struct SplashScreenView: View {
                 VStack {
                     Text("&copy; 2022 Archotech")
                         .fontWeight(.medium)
-                        .foregroundColor(.gray)
+                        .foregroundColor(Color("Muted"))
                 }
             }
             .scaleEffect(size)

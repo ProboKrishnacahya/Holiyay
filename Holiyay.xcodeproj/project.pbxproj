@@ -130,6 +130,7 @@
 		04E35CD3282BB71E00EC3F12 /* Bookmark */ = {
 			isa = PBXGroup;
 			children = (
+				040FC4D02836357000C51E58 /* BookmarkCardView.swift */,
 				042019902832308E00A4A74F /* BookmarkView.swift */,
 			);
 			path = Bookmark;
@@ -148,6 +149,7 @@
 		04E35CD5282BB75B00EC3F12 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				040FC4D22836359500C51E58 /* ExploreCardView.swift */,
 				0420198E2832306200A4A74F /* ExploreView.swift */,
 				0420199428323CFF00A4A74F /* CategoryItem.swift */,
 				042019962832485A00A4A74F /* CategoryRow.swift */,
@@ -174,8 +176,6 @@
 		04E35CEE282BC04D00EC3F12 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				040FC4D02836357000C51E58 /* BookmarkCardView.swift */,
-				040FC4D22836359500C51E58 /* ExploreCardView.swift */,
 				04E35CEF282BC06100EC3F12 /* MapView.swift */,
 			);
 			path = Helpers;
