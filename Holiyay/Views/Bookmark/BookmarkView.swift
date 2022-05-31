@@ -11,6 +11,7 @@ struct BookmarkView: View {
     @EnvironmentObject var destinationData: DestinationData
     @State private var filter = FilterCategory.all
     @State private var selectedDestination: Destination?
+    @State private var showingAlert = false
     
     enum FilterCategory: String, CaseIterable, Identifiable {
         case all = "All"
@@ -31,31 +32,31 @@ struct BookmarkView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
-                Text("Realize your plan")
-                    .font(.title)
-                    .fontWeight(.black)
-                    .toolbar {
-                        ToolbarItemGroup(placement: .navigationBarTrailing) {
-                            Button(action: {
-                                print("Sort by Destination Name")
-                            }) {
-                                Label("Sort", systemImage: "arrow.up.arrow.down")
-                            }
-                            Menu {
-                                Picker("Category", selection: $filter) {
-                                    ForEach(FilterCategory.allCases) { category in
-                                        Text(category.rawValue).tag(category)
-                                    }
+            ScrollView {
+                VStack {
+                    Text("Realize your plan")
+                        .font(.title)
+                        .fontWeight(.black)
+                        .toolbar {
+                            ToolbarItemGroup(placement: .navigationBarTrailing) {
+                                Button(action: {
+                                    print("Sort by Destination Name")
+                                }) {
+                                    Label("Sort", systemImage: "arrow.up.arrow.down")
                                 }
-                                .pickerStyle(.inline)
-                            } label: {
-                                Label("Filter", systemImage: "slider.horizontal.3")
+                                Menu {
+                                    Picker("Category", selection: $filter) {
+                                        ForEach(FilterCategory.allCases) { category in
+                                            Text(category.rawValue).tag(category)
+                                        }
+                                    }
+                                    .pickerStyle(.inline)
+                                } label: {
+                                    Label("Filter", systemImage: "slider.horizontal.3")
+                                }
                             }
                         }
-                    }
-                
-                List(selection: $selectedDestination) {
+                    
                     ForEach(filteredDestinations) { destination in
                         NavigationLink {
                             DestinationDetail(destination: destination)
@@ -65,15 +66,15 @@ struct BookmarkView: View {
                         .tag(destination)
                     }
                 }
-                .frame(maxHeight: .infinity, alignment: .top)
-                .listStyle(.plain)
             }
+            .padding()
+            .frame(maxHeight: .infinity, alignment: .top)
         }
     }
-    
-    struct BookmarkView_Previews: PreviewProvider {
-        static var previews: some View {
-            BookmarkView()
-        }
+}
+
+struct BookmarkView_Previews: PreviewProvider {
+    static var previews: some View {
+        BookmarkView()
     }
 }

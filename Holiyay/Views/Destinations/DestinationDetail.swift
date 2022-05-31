@@ -21,13 +21,13 @@ struct DestinationDetail: View {
             MapView(coordinate: destination.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 256)
-                .overlay(
-                    Button {
-                    } label: {
-                        Label("Open in Maps", systemImage: "location.fill")
-                    }
-                        .buttonStyle(SecondaryButton())
-                )
+//                .overlay(
+//                    Button {
+//                    } label: {
+//                        Label("Open in Maps", systemImage: "location.fill")
+//                    }
+//                        .buttonStyle(SecondaryButton())
+//                )
             
             VStack(alignment: .leading) {
                 HStack {
@@ -53,10 +53,6 @@ struct DestinationDetail: View {
                 
                 Text(destination.description)
                     .padding(.bottom)
-                
-                //                ForEach(destinationData.categories.keys.sorted(), id: \.self) { key in
-                //                    CategoryRow(categoryName: key, items: destinationData.categories[key]!)
-                //                }
                 
                 Button {
                     isPresented.toggle()

@@ -15,7 +15,7 @@ struct BookmarkCardView: View {
         VStack(alignment: .leading) {
             destination.thumbnail
                 .resizable()
-                .scaledToFit()
+                .scaledToFill()
             
             HStack {
                 VStack(alignment: .leading) {
@@ -54,6 +54,7 @@ struct BookmarkCardView: View {
         }
         .background(Color("Component"))
         .cornerRadius(16)
+        .padding(.bottom)
     }
 }
 

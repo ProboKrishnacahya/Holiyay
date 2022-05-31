@@ -11,15 +11,70 @@
             "latitude": -8.845558
         },
         "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa",
-        "imageDetail": ["pandawa_detail_1", "pandawa_detail_1"]
+        "imageExploreBookmark": "pandawa"
+    },
+    {
+        "name": "St. Pete",
+        "category": "Beaches",
+        "city": "Florida",
+        "country": "United States of America",
+        "id": 2,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -82.747259,
+            "latitude": 27.743552
+        },
+        "description": "St. Pete Beach is a coastal city in Pinellas County, Florida, United States. Known as a tourist destination, St. Pete Beach was formed from the towns of Pass-a-Grille, Belle Vista, St. Petersburg Beach and unincorporated Pinellas County. At the time of its incorporation in 1957, its name was St. Petersburg Beach. On March 9, 1994, locals voted to officially change the name to the shorter version of St. Pete Beach, to distinguish it from the city of St. Petersburg a few miles to the east.",
+        "imageExploreBookmark": "st.pete"
+    },
+    {
+        "name": "Playa Penon del Cuervo",
+        "category": "Beaches",
+        "city": "Malaga",
+        "country": "Spain",
+        "id": 3,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -4.335265,
+            "latitude": 36.713035
+        },
+        "description": "Small beach next to the road, with hardly any equipment or services. The Peñón del Cuervo separates the beach in two, and offers a very characteristic picture of the beach.",
+        "imageExploreBookmark": "playa_del_penon_del_cuervo"
+    },
+    {
+        "name": "Whitehaven",
+        "category": "Beaches",
+        "city": "Whitsundays",
+        "country": "Australia",
+        "id": 4,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": 149.038710,
+            "latitude": -20.282746
+        },
+        "description": "Whitehaven Beach is on Whitsunday Island, Australia. The island is accessible by boat, seaplane & helicopter from Airlie Beach, as well as Hamilton Island. It lies across from Stockyard Beach, better known as Chalkie's Beach, on Haslewood Island. The beach is known for its crystal white silica sands and turquoise coloured waters. The beach has tour barbeque and camping facilities.",
+        "imageExploreBookmark": "whitehaven"
+    },
+    {
+        "name": "Pacific",
+        "category": "Beaches",
+        "city": "San Diego",
+        "country": "Indonesia",
+        "id": 5,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -117.256862,
+            "latitude": 32.794744
+        },
+        "description": "One of the beaches in San Diego's Mission Bay & Beaches region, P.B. (as the locals call it) is a favorite spot for college students and young adults enjoying the party atmosphere, frequenting the area’s restaurants and bars—some just steps from the sand. P.B. comes alive at night, too, with the glow of bonfires and the electricity of the region’s many clubs.",
+        "imageExploreBookmark": "pacific"
     },
     {
         "name": "Oljato-Monument Valley",
         "category": "Deserts",
         "city": "Navajo County",
         "country": "United States of America",
-        "id": 2,
+        "id": 6,
         "isBookmark": true,
         "coordinates": {
             "longitude": -110.348000,
@@ -29,11 +84,123 @@
         "imageExploreBookmark": "oljato-monument_valley"
     },
     {
+        "name": "Namib",
+        "category": "Deserts",
+        "city": "Swakopmund",
+        "country": "Namibia",
+        "id": 7,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": 14.988485,
+            "latitude": -24.276029
+        },
+        "description": "The Namib is a coastal desert in Southern Africa. The name Namib is of Khoekhoegowab origin and means 'vast place'. According to the broadest definition, the Namib stretches for more than 2,000 kilometres along the Atlantic coasts of Angola, Namibia, and South Africa, extending southward from the Carunjamba River in Angola, through Namibia and to the Olifants River in Western Cape, South Africa.",
+        "imageExploreBookmark": "namib"
+    },
+    {
+        "name": "Wadi Rum",
+        "category": "Deserts",
+        "city": "Aqaba",
+        "country": "Jordan",
+        "id": 8,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": 35.402200,
+            "latitude": 29.541900
+        },
+        "description": "Wadi Rum is a protected area covering 720 square kilometers of dramatic desert wilderness in the south of Jordan. Huge mountains of sandstone and granite emerge, sheer-sided, from wide sandy valleys to reach heights of 1700 meters and more. Narrow canyons and fissures cut deep into the mountains and many conceal ancient rock drawings etched by the peoples of the desert over millennia. Bedouin tribes still live among the mountains of Rum and their large goat-hair tents are a special feature of the landscape. There are many ways to enjoy the attractions of Rum, including jeep, camel and hiking tours and you can stay overnight in a Bedouin tent and gaze at the amazing panoply of stars. To safeguard its unique desert landscape, Wadi Rum was declared a protected area in1998 and an intensive conservation programme is now underway.",
+        "imageExploreBookmark": "wadi_rum"
+    },
+    {
+        "name": "Thar",
+        "category": "Deserts",
+        "city": "Rajasthan",
+        "country": "India",
+        "id": 9,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": 73.061470,
+            "latitude": 28.124223
+        },
+        "description": "The Thar Desert, also known as the Great Indian Desert, is a large, arid region in the northwestern part of the Indian subcontinent that forms a natural boundary between India and Pakistan. It is the world's 17th largest desert, and the world's 9th largest subtropical desert. About 85% of the Thar Desert is in India, and the remaining 15% is in Pakistan. In India, it covers about 320,000 km, forming approximately 10% of the total geographic area of India.",
+        "imageExploreBookmark": "thar"
+    },
+    {
+        "name": "White Sands",
+        "category": "Deserts",
+        "city": "New Mexico",
+        "country": "United States of America",
+        "id": 10,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": -106.171667,
+            "latitude": 32.779722
+        },
+        "description": "White Sands National Monument is a U.S. National Monument located in the state of New Mexico on the north side of Route 70 about 16 miles southwest of Alamogordo in western Otero County and northeastern Doña Ana County. The monument is situated at an elevation of 4,235 feet in the mountain-ringed Tularosa Basin and comprises the southern part of a 275 sq mi field of white sand dunes composed of gypsum crystals. The gypsum dune field is the largest of its kind in the world.",
+        "imageExploreBookmark": "white_sands"
+    },
+    {
         "name": "Arashiyama Bamboo",
         "category": "Forests",
         "city": "Kyoto",
         "country": "Japan",
-        "id": 3,
+        "id": 11,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": 135.671538,
+            "latitude": 35.016818
+        },
+        "description": "Bamboo Forest, Arashiyama Bamboo Grove or Sagano Bamboo Forest, is a natural forest of bamboo in Arashiyama, Kyoto, Japan. The forest consists mostly of Moso Bamboo (Phyllostachys edulis) and consists of several pathways for tourists and visitors. The Ministry of the Environment considers it a part of the soundscape of Japan. Prior to 2015 there was a charge to access the forest. The forest is not far from Tenryū-ji Temple, which is the location of Rinzai School, and the famous Nonomiya Shrine.",
+        "imageExploreBookmark": "arashiyama_bamboo"
+    },
+    {
+        "name": "Arashiyama Bamboo",
+        "category": "Forests",
+        "city": "Kyoto",
+        "country": "Japan",
+        "id": 12,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": 135.671538,
+            "latitude": 35.016818
+        },
+        "description": "Bamboo Forest, Arashiyama Bamboo Grove or Sagano Bamboo Forest, is a natural forest of bamboo in Arashiyama, Kyoto, Japan. The forest consists mostly of Moso Bamboo (Phyllostachys edulis) and consists of several pathways for tourists and visitors. The Ministry of the Environment considers it a part of the soundscape of Japan. Prior to 2015 there was a charge to access the forest. The forest is not far from Tenryū-ji Temple, which is the location of Rinzai School, and the famous Nonomiya Shrine.",
+        "imageExploreBookmark": "arashiyama_bamboo"
+    },
+    {
+        "name": "Arashiyama Bamboo",
+        "category": "Forests",
+        "city": "Kyoto",
+        "country": "Japan",
+        "id": 13,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": 135.671538,
+            "latitude": 35.016818
+        },
+        "description": "Bamboo Forest, Arashiyama Bamboo Grove or Sagano Bamboo Forest, is a natural forest of bamboo in Arashiyama, Kyoto, Japan. The forest consists mostly of Moso Bamboo (Phyllostachys edulis) and consists of several pathways for tourists and visitors. The Ministry of the Environment considers it a part of the soundscape of Japan. Prior to 2015 there was a charge to access the forest. The forest is not far from Tenryū-ji Temple, which is the location of Rinzai School, and the famous Nonomiya Shrine.",
+        "imageExploreBookmark": "arashiyama_bamboo"
+    },
+    {
+        "name": "Arashiyama Bamboo",
+        "category": "Forests",
+        "city": "Kyoto",
+        "country": "Japan",
+        "id": 14,
+        "isBookmark": true,
+        "coordinates": {
+            "longitude": 135.671538,
+            "latitude": 35.016818
+        },
+        "description": "Bamboo Forest, Arashiyama Bamboo Grove or Sagano Bamboo Forest, is a natural forest of bamboo in Arashiyama, Kyoto, Japan. The forest consists mostly of Moso Bamboo (Phyllostachys edulis) and consists of several pathways for tourists and visitors. The Ministry of the Environment considers it a part of the soundscape of Japan. Prior to 2015 there was a charge to access the forest. The forest is not far from Tenryū-ji Temple, which is the location of Rinzai School, and the famous Nonomiya Shrine.",
+        "imageExploreBookmark": "arashiyama_bamboo"
+    },
+    {
+        "name": "Arashiyama Bamboo",
+        "category": "Forests",
+        "city": "Kyoto",
+        "country": "Japan",
+        "id": 15,
         "isBookmark": true,
         "coordinates": {
             "longitude": 135.671538,
@@ -47,7 +214,7 @@
         "category": "Mountains",
         "city": "Pasuruan",
         "country": "Indonesia",
-        "id": 4,
+        "id": 16,
         "isBookmark": true,
         "coordinates": {
             "longitude": 112.949927,
@@ -57,226 +224,59 @@
         "imageExploreBookmark": "bromo"
     },
     {
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
-        "country": "Indonesia",
-        "id": 5,
-        "isBookmark": true,
-        "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
-        },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
-    },
-    {
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
-        "country": "Indonesia",
-        "id": 6,
-        "isBookmark": true,
-        "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
-        },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
-    },
-    {
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
-        "country": "Indonesia",
-        "id": 7,
-        "isBookmark": true,
-        "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
-        },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
-    },
-    {
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
-        "country": "Indonesia",
-        "id": 8,
-        "isBookmark": true,
-        "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
-        },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
-    },
-    {
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
-        "country": "Indonesia",
-        "id": 9,
-        "isBookmark": true,
-        "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
-        },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
-    },{
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
-        "country": "Indonesia",
-        "id": 10,
-        "isBookmark": true,
-        "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
-        },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
-    },
-    {
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
-        "country": "Indonesia",
-        "id": 11,
-        "isBookmark": true,
-        "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
-        },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
-    },
-    {
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
-        "country": "Indonesia",
-        "id": 12,
-        "isBookmark": true,
-        "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
-        },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
-    },
-    {
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
-        "country": "Indonesia",
-        "id": 13,
-        "isBookmark": true,
-        "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
-        },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
-    },
-    {
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
-        "country": "Indonesia",
-        "id": 14,
-        "isBookmark": true,
-        "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
-        },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
-    },
-    {
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
-        "country": "Indonesia",
-        "id": 15,
-        "isBookmark": true,
-        "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
-        },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
-    },
-    {
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
-        "country": "Indonesia",
-        "id": 16,
-        "isBookmark": true,
-        "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
-        },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
-    },
-    {
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
+        "name": "Bromo",
+        "category": "Mountains",
+        "city": "Pasuruan",
         "country": "Indonesia",
         "id": 17,
         "isBookmark": true,
         "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
+            "longitude": 112.949927,
+            "latitude": -7.944869
         },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
+        "description": "Mount Bromo (Indonesian and Javanese: Gunung Bromo) is an active somma volcano and part of the Tengger mountains, in East Java, Indonesia. At 2,329 meters (7,641 feet) it is not the highest peak of the massif, but the most famous. The area is one of the most visited tourist destinations in East Java, and the volcano is included in the Bromo Tengger Semeru National Park. The name Bromo comes from the Javanese pronunciation of Brahma, the Hindu god of creation. Mount Bromo is located in the middle of a plain called 'Sea of Sand' (Javanese: Segara Wedi or Indonesian: Lautan Pasir), a nature reserve that has been protected since 1919.",
+        "imageExploreBookmark": "bromo"
     },
     {
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
+        "name": "Bromo",
+        "category": "Mountains",
+        "city": "Pasuruan",
         "country": "Indonesia",
         "id": 18,
         "isBookmark": true,
         "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
+            "longitude": 112.949927,
+            "latitude": -7.944869
         },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
+        "description": "Mount Bromo (Indonesian and Javanese: Gunung Bromo) is an active somma volcano and part of the Tengger mountains, in East Java, Indonesia. At 2,329 meters (7,641 feet) it is not the highest peak of the massif, but the most famous. The area is one of the most visited tourist destinations in East Java, and the volcano is included in the Bromo Tengger Semeru National Park. The name Bromo comes from the Javanese pronunciation of Brahma, the Hindu god of creation. Mount Bromo is located in the middle of a plain called 'Sea of Sand' (Javanese: Segara Wedi or Indonesian: Lautan Pasir), a nature reserve that has been protected since 1919.",
+        "imageExploreBookmark": "bromo"
     },
     {
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
+        "name": "Bromo",
+        "category": "Mountains",
+        "city": "Pasuruan",
         "country": "Indonesia",
         "id": 19,
         "isBookmark": true,
         "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
+            "longitude": 112.949927,
+            "latitude": -7.944869
         },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
+        "description": "Mount Bromo (Indonesian and Javanese: Gunung Bromo) is an active somma volcano and part of the Tengger mountains, in East Java, Indonesia. At 2,329 meters (7,641 feet) it is not the highest peak of the massif, but the most famous. The area is one of the most visited tourist destinations in East Java, and the volcano is included in the Bromo Tengger Semeru National Park. The name Bromo comes from the Javanese pronunciation of Brahma, the Hindu god of creation. Mount Bromo is located in the middle of a plain called 'Sea of Sand' (Javanese: Segara Wedi or Indonesian: Lautan Pasir), a nature reserve that has been protected since 1919.",
+        "imageExploreBookmark": "bromo"
     },
     {
-        "name": "Pandawa",
-        "category": "Beaches",
-        "city": "Badung",
+        "name": "Bromo",
+        "category": "Mountains",
+        "city": "Pasuruan",
         "country": "Indonesia",
         "id": 20,
         "isBookmark": true,
         "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
+            "longitude": 112.949927,
+            "latitude": -7.944869
         },
-        "description": "Pandawa Beach is a white sandy beach with a length of approximately 1 km which is flanked by two pieces small cape on the left and right as a barrier. This beach forms a crescent moon when seen from the air with a width of approximately 250 meters if it is drawn a line from the shoreline to the land. Part of this coastal plain bounded by hills was very steep and precipitous that was previously inaccessible. That is why the prime tourists who find this beach called it a 'hidden beach'. At that time said to be 'hidden' because it has no access to the beaches. It is said that some of the tourists who want to enjoy the beaches like sunbathing, bathing etc must use ropes to reach its shores. Since that time the beach is known and spread to fellow tourists as 'hidden beach'. Although now it can no longer be referred to as a hidden beach but the title was still stuck because of the history of the term discovery. That is cursory the term of 'hidden beach'.",
-        "imageExploreBookmark": "pandawa"
+        "description": "Mount Bromo (Indonesian and Javanese: Gunung Bromo) is an active somma volcano and part of the Tengger mountains, in East Java, Indonesia. At 2,329 meters (7,641 feet) it is not the highest peak of the massif, but the most famous. The area is one of the most visited tourist destinations in East Java, and the volcano is included in the Bromo Tengger Semeru National Park. The name Bromo comes from the Javanese pronunciation of Brahma, the Hindu god of creation. Mount Bromo is located in the middle of a plain called 'Sea of Sand' (Javanese: Segara Wedi or Indonesian: Lautan Pasir), a nature reserve that has been protected since 1919.",
+        "imageExploreBookmark": "bromo"
     }
 ]

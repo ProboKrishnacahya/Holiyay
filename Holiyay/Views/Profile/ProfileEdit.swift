@@ -9,73 +9,27 @@ import SwiftUI
 
 struct ProfileEdit: View {
     @Binding var profile: Profile
-    @State private var selectedCountry = 0
-    @State private var number: Int = 1
-    
-    let countryOfDomicile = [
-        "Afghanistan",
-        "Albania",
-        "Algeria",
-        "Andorra",
-        "Angola",
-        "Antigua and Barbuda",
-        "Argentina",
-        "Armenia",
-        "Australia",
-        "Austria",
-        "Azerbaijan",
-        "Bahamas",
-        "Bahrain",
-        "Bangladesh",
-        "Barbados",
-        "Belarus",
-        "Belgium",
-        "Belize",
-        "Benin (Dahomey)",
-        "Bolivia",
-        "Bosnia and Herzegovina",
-        "Botswana",
-        "Brazil",
-        "Brunei",
-        "Brunswick and Lüneburg",
-        "Bulgaria",
-        "Burkina Faso (Upper Volta)",
-        "Burma",
-        "Burundi",
-        "Cabo Verde",
-        "Cambodia",
-        "Cameroon",
-        "Canada",
-        "Cayman Islands",
-        "Central African Republic",
-        "Chad",
-        "Chile",
-        "China",
-        "Colombia",
-        "Comoros",
-        "Congo Free State",
-        "Costa Rica",
-        "Cote d’Ivoire (Ivory Coast)",
-        "Croatia",
-        "Cuba",
-        "Cyprus",
-        "Czechia",
-        "Czechoslovakia"
-    ]
     
     var body: some View {
         List {
-            VStack(alignment: .center) {
+            HStack {
+                Spacer()
                 Text("Keep your identity updated")
                     .font(.title2)
                     .fontWeight(.black)
+                Spacer()
             }
+            .padding(.bottom)
             
             VStack(alignment: .leading) {
                 Text("First Name").bold()
                 TextField("First Name", text: $profile.firstName)
                     .textFieldStyle(.roundedBorder)
                     .textContentType(.name)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 4)
+                            .stroke(.white, lineWidth: 2)
+                    )
             }
             
             VStack(alignment: .leading) {
@@ -83,22 +37,25 @@ struct ProfileEdit: View {
                 TextField("Last Name", text: $profile.lastName)
                     .textFieldStyle(.roundedBorder)
                     .textContentType(.name)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 4)
+                            .stroke(.white, lineWidth: 2)
+                    )
             }
             
             VStack(alignment: .leading) {
-                Picker("Country of Domicile", selection: $selectedCountry) {
-                    ForEach(0..<countryOfDomicile.count) {
-                        Text(countryOfDomicile[$0])
+                Text("Country of Domicile").bold()
+                
+                Picker("Country of Domicile", selection: $profile.countryOfDomicile) {
+                    ForEach(0..<profile.countryOfDomicile.count) {
+                        Text(profile.countryOfDomicile[$0])
                     }
                 }
-                .pickerStyle(.inline)
-                .font(.body)
-                .padding(.top, 1)
+                .pickerStyle(.menu)
             }
             
             VStack(alignment: .leading, spacing: 10) {
                 Text("Gender").bold()
-                    .padding(.top, 5)
                 
                 Picker("Gender", selection: $profile.gender) {
                     ForEach(Profile.Gender.allCases) { gender in

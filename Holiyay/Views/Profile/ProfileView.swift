@@ -2,77 +2,85 @@
 //  ProfileView.swift
 //  Holiyay
 //
-//  Created by MacBook Pro on 20/05/22.
+//  Created by MacBook Pro on 16/05/22.
 //
 
 import SwiftUI
 
 struct ProfileView: View {
+    @Environment(\.editMode) var editMode
     @EnvironmentObject var destinationData: DestinationData
-    
-    var profile: Profile
+    @State private var draftProfile = Profile.default
     
     var body: some View {
-        NavigationView {
-            VStack {
-                (Text("Hello, ") +
-                 Text("\(profile.firstName) \(profile.lastName) \u{1F44B}"))
-                    .font(.system(size: 26))
-                    .fontWeight(.black)
-                
-                VStack() {
-                    Image(systemName: "person.text.rectangle.fill")
-                        .symbolRenderingMode(.hierarchical)
-                        .font(.system(size: 96))
-                        .foregroundColor(Color("Primary"))
-                        .padding()
-                    
-                    VStack(alignment: .leading, spacing: 20) {
-                        Text("\(Image(systemName: "quote.opening"))  First Name")
-                            .bold()
-                        Text(profile.firstName)
-                            .foregroundColor(Color("Muted"))
-                        
-                        Text("\(Image(systemName: "quote.closing"))  Last Name")
-                            .bold()
-                        Text(profile.lastName)
-                            .foregroundColor(Color("Muted"))
-                        
-                        (Text("\(Image(systemName: "flag.fill"))  Country of Domicile") +
-                         Text("                        "))
-                            .bold()
-                        Text(profile.lastName)
-                            .foregroundColor(Color("Muted"))
-                        
-                        Text("\(Image(systemName: "figure.stand"))  Gender")
-                            .bold()
-                        Text(profile.gender.rawValue)
-                            .foregroundColor(Color("Muted"))
-                        
-                        Text("\(Image(systemName: "number"))  Age")
-                            .bold()
-                        Text(profile.age.description)
-                            .foregroundColor(Color("Muted"))
+        VStack(alignment: .leading, spacing: 20) {
+            HStack {
+                if editMode?.wrappedValue == .active {
+                    Button("Cancel", role: .cancel) {
+                        draftProfile = destinationData.profile
+                        editMode?.animation().wrappedValue = .inactive
                     }
-                    .font(.title3)
-                    .padding(.bottom)
                 }
-                .frame(width: UIScreen.main.bounds.width - 75)
-                .padding()
-                .background(Color("Component"))
-                .foregroundColor(.white)
-                .cornerRadius(16)
+                Spacer()
+                ShowEditProfileSheets()
             }
-            .frame(maxHeight: .infinity, alignment: .top)
-            .padding(.top)
-            .navigationBarHidden(true)
+            
+            if editMode?.wrappedValue == .inactive {
+                ProfileResult(profile: destinationData.profile)
+            } else {
+                ProfileEdit(profile: $draftProfile)
+                    .onAppear {
+                        draftProfile = destinationData.profile
+                    }
+                    .onDisappear {
+                        destinationData.profile = draftProfile
+                    }
+            }
+        }
+        .padding()
+    }
+}
+
+struct ShowEditProfileSheets: View {
+    @State private var showingPopover = false
+    @EnvironmentObject var destinationData: DestinationData
+    
+    var body: some View {
+        Button {
+            showingPopover = true
+        } label: {
+            Image(systemName: "pencil")
+                .font(.system(size: 22, weight: .medium, design: .default))
+        }
+        .popover(isPresented: $showingPopover) {
+            HStack {
+                Button {
+                    showingPopover = false
+                } label: {
+                    Text("Cancel").bold()
+                }
+                Spacer()
+            }
+            .padding([.top, .leading])
+            
+            ProfileEdit(profile: .constant(.default))
+            
+            Button {
+                showingPopover = false
+            } label: {
+                Label("Confirm Changes", systemImage: "person.fill.checkmark")
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(PrimaryButton())
+            .padding([.horizontal, .bottom])
         }
     }
 }
 
-struct ProfileView_Previews: PreviewProvider {
+struct ProfileHost_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileView(profile: Profile.default)
+        ProfileView()
             .environmentObject(DestinationData())
     }
 }
+

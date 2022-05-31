@@ -22,13 +22,14 @@ struct ContentView: View {
                     Text("Bookmark")
                 }
             
-            ProfileHost()
+            ProfileView()
                 .tabItem {
                     Image(systemName: "person")
                     Text("Profile")
                 }
         }
         .accentColor(Color("Accent"))
+        .preferredColorScheme(.dark)
     }
 }
 
