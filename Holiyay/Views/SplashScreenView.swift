@@ -1,5 +1,5 @@
 //
-//  SplashscreenView.swift
+//  SplashScreenView.swift
 //  Holiyay
 //
 //  Created by MacBook Pro on 04/05/22.
@@ -52,11 +52,12 @@ struct SplashScreenView: View {
                 }
             }
             .statusBar(hidden: true)
+            .preferredColorScheme(.dark)
         }
     }
 }
 
-struct SplashscreenView_Previews: PreviewProvider {
+struct SplashScreenView_Previews: PreviewProvider {
     static var previews: some View {
         SplashScreenView()
             .previewInterfaceOrientation(.portrait)
