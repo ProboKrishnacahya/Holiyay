@@ -5,6 +5,7 @@
 //  Created by MacBook Pro on 11/05/22.
 //
 
+import Foundation
 import SwiftUI
 
 struct DestinationDetail: View {
@@ -13,7 +14,7 @@ struct DestinationDetail: View {
     var destination: Destination
     
     var destinationIndex: Int {
-        destinationData.destinations.firstIndex(where: { $0.id == destination.id })!
+        destinationData.destinations.firstIndex(where: { $0.id == destination.id }) ?? 0
     }
     
     var body: some View {
@@ -54,6 +55,8 @@ struct DestinationDetail: View {
                 Text(destination.description)
                     .padding(.bottom)
                 
+                BookmarkButton(isSet: $destinationData.destinations[destinationIndex].isBookmark)
+                
                 Button {
                     isPresented.toggle()
                 } label: {
@@ -61,7 +64,9 @@ struct DestinationDetail: View {
                         .frame(maxWidth: .infinity)
                 }
                 .buttonStyle(PrimaryButton())
-                .fullScreenCover(isPresented: $isPresented, content: FullScreenModalView.init)
+                .fullScreenCover(isPresented: $isPresented) {
+                    FullScreenModalView(destination: self.destination)
+                }
             }
             .padding()
         }
@@ -72,7 +77,19 @@ struct DestinationDetail: View {
 
 struct FullScreenModalView: View {
     @Environment(\.presentationMode) var presentationMode
-    @State private var visitDate = Date()
+    @EnvironmentObject var destinationData: DestinationData
+    var destination: Destination
+    
+    var destinationIndex: Int {
+        destinationData.destinations.firstIndex(where: { $0.id == destination.id })!
+    }
+    @State var visitDate = Date()
+
+    func dateFormat() -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "YY/MM/dd"
+        return dateFormatter.string(from: visitDate)
+    }
     
     var body: some View {
         HStack {
@@ -96,11 +113,29 @@ struct FullScreenModalView: View {
             
             DatePicker(selection: $visitDate, in: ...Date(), displayedComponents: .date) {
             }
+            .onChange(of: visitDate) { _ in
+                MyBookmark.setup()
+                MyBookmark.destinations[destinationIndex].isBookmark = true
+                MyBookmark.destinations[destinationIndex].visitDate = dateFormat()
+                print(dateFormat())
+            }
             .datePickerStyle(GraphicalDatePickerStyle())
             .accentColor(Color("Primary"))
             .clipped()
             .labelsHidden()
             .padding(.horizontal)
+            
+//            DatePicker(selection: $visitDate, in: ...Date(), displayedComponents: .date) {
+//            }
+//            .datePickerStyle(GraphicalDatePickerStyle())
+//            .accentColor(Color("Primary"))
+//            .clipped()
+//            .labelsHidden()
+//            .padding(.horizontal)
+//            .onChange(of: visitDate) { _ in
+//                destinationData.destinations[destinationIndex].visitDate = destinationData.destinations[destinationIndex][visitDate]
+//
+//            }
             
             Text("Set Visit Date on: \(visitDate.formatted(date: .long, time: .omitted))")
                 .foregroundColor(Color("Muted"))

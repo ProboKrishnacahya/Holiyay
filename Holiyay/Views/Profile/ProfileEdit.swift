@@ -51,15 +51,24 @@ struct ProfileEdit: View {
             VStack(alignment: .leading, spacing: 10) {
                 Text("Country of Domicile").bold()
                 
-                Picker("Country of Domicile", selection: $selectedCountry, content: {
-                    ForEach(0..<profile.countryOfDomicile.count, content: { index in
-                        Text(profile.countryOfDomicile[index])
-                    })
-                })
-                    .pickerStyle(.menu)
-//                Text("Selected country: \(selectedCountry)")
+                Picker(
+                    "Country of Domicile",
+                    selection: $selectedCountry,
+                    content: {
+                        ForEach(
+                            0..<profile.countryOfDomicile.count,
+                            content: { index in
+                                Text(profile.countryOfDomicile[index])
+                            }
+                        )
+                    }
+                )
+                .onChange(of: selectedCountry) { _ in
+                    profile.selectedCountry = profile.countryOfDomicile[selectedCountry]
+                }
+                .pickerStyle(.menu)
+                //                Text("Selected country: \(selectedCountry)")
             }
-            
             
             VStack(alignment: .leading, spacing: 10) {
                 Text("Gender").bold()

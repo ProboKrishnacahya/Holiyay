@@ -9,9 +9,18 @@ import SwiftUI
 
 struct BookmarkView: View {
     @EnvironmentObject var destinationData: DestinationData
+//    @State private var sort = SortDateAdded.all
     @State private var filter = FilterCategory.all
     @State private var selectedDestination: Destination?
     @State private var showingAlert = false
+    
+//    enum SortDateAdded: String, CaseIterable, Identifiable {
+//        case all = "All"
+//        case new = "New"
+//        case old = "Old"
+//
+//        var id: SortDateAdded { self }
+//    }
     
     enum FilterCategory: String, CaseIterable, Identifiable {
         case all = "All"
@@ -22,6 +31,13 @@ struct BookmarkView: View {
         
         var id: FilterCategory { self }
     }
+    
+//    var sortedDestinations: [Destination] {
+//        destinationData.destinations.filter { destination in
+//            (destination.isBookmark)
+//            && (filter == .all || filter.rawValue == destination.category.rawValue)
+//        }
+//    }
     
     var filteredDestinations: [Destination] {
         destinationData.destinations.filter { destination in
@@ -39,13 +55,19 @@ struct BookmarkView: View {
                         .fontWeight(.black)
                         .toolbar {
                             ToolbarItemGroup(placement: .navigationBarTrailing) {
-                                Button(action: {
-                                    print("Sort by Destination Name")
-                                }) {
+                                Menu {
+                                    Picker("Sort by Date", selection: $filter) {
+                                        ForEach(FilterCategory.allCases) { category in
+                                            Text(category.rawValue).tag(category)
+                                        }
+                                    }
+                                    .pickerStyle(.inline)
+                                } label: {
                                     Label("Sort", systemImage: "arrow.up.arrow.down")
                                 }
+                                
                                 Menu {
-                                    Picker("Category", selection: $filter) {
+                                    Picker("Filter by Category", selection: $filter) {
                                         ForEach(FilterCategory.allCases) { category in
                                             Text(category.rawValue).tag(category)
                                         }
@@ -69,6 +91,9 @@ struct BookmarkView: View {
             }
             .padding()
             .frame(maxHeight: .infinity, alignment: .top)
+            .onAppear {
+                destinationData.destinations = getDestinations()
+            }
         }
     }
 }

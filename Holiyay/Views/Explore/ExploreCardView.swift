@@ -47,15 +47,15 @@ struct ExploreCardView: View {
         .background(Color("Component"))
         .foregroundColor(.white)
         .cornerRadius(8)
-        .padding(.vertical, 12)
+        .padding(.vertical, 10)
     }
 }
 
-struct ExploreCardView_Previews: PreviewProvider {
-    static let destinationData = DestinationData()
-    
-    static var previews: some View {
-        ExploreCardView(destination: destinations[0])
-            .environmentObject(destinationData)
-    }
-}
+//struct ExploreCardView_Previews: PreviewProvider {
+//    static let destinationData = DestinationData()
+//    
+//    static var previews: some View {
+//        ExploreCardView(destination: destinations[0])
+//            .environmentObject(destinationData)
+//    }
+//}

@@ -8,8 +8,8 @@
 import Foundation
 import Combine
 
-final class DestinationData: ObservableObject {
-    @Published var destinations: [Destination] = load("destinationData.json")
+ class DestinationData: ObservableObject {
+    @Published var destinations: [Destination] = getDestinations()
     @Published var profile = Profile.default
     
     var categories: [String: [Destination]] {
@@ -19,10 +19,15 @@ final class DestinationData: ObservableObject {
         )
     }
 }
+ 
+func getDestinations() -> [Destination] {
+    if MyBookmark.destinations.isEmpty {
+        return load("destinationData.json")
+    }
+    return MyBookmark.destinations
+ }
 
-var destinations: [Destination] = load("destinationData.json")
-
-func load<T: Decodable>(_ filename: String) -> T {
+func load(_ filename: String) -> [Destination] {
     let data: Data
     
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
@@ -38,8 +43,8 @@ func load<T: Decodable>(_ filename: String) -> T {
     
     do {
         let decoder = JSONDecoder()
-        return try decoder.decode(T.self, from: data)
+        return try decoder.decode([Destination].self, from: data)
     } catch {
-        fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
+        fatalError("Couldn't parse \(filename) as :\n\(error)")
     }
 }

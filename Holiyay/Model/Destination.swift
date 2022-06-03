@@ -10,12 +10,13 @@ import SwiftUI
 import CoreLocation
 
 struct Destination: Hashable, Codable, Identifiable {
-    var id: Int
-    var name: String
-    var country: String
-    var description: String
-    var city: String
-    var isBookmark: Bool
+    var id: Int = 0
+    var name: String = ""
+    var country: String = ""
+    var description: String = ""
+    var city: String = ""
+    var isBookmark: Bool = false
+    var visitDate: String?
     
     var category: Category
     enum Category: String, CaseIterable, Codable {

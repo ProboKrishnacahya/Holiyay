@@ -19,7 +19,7 @@
         "city": "Florida",
         "country": "United States of America",
         "id": 2,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": -82.747259,
             "latitude": 27.743552
@@ -33,7 +33,7 @@
         "city": "Malaga",
         "country": "Spain",
         "id": 3,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": -4.335265,
             "latitude": 36.713035
@@ -47,7 +47,7 @@
         "city": "Whitsundays",
         "country": "Australia",
         "id": 4,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": 149.038710,
             "latitude": -20.282746
@@ -61,7 +61,7 @@
         "city": "San Diego",
         "country": "Indonesia",
         "id": 5,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": -117.256862,
             "latitude": 32.794744
@@ -89,7 +89,7 @@
         "city": "Swakopmund",
         "country": "Namibia",
         "id": 7,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": 14.988485,
             "latitude": -24.276029
@@ -103,7 +103,7 @@
         "city": "Aqaba",
         "country": "Jordan",
         "id": 8,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": 35.402200,
             "latitude": 29.541900
@@ -117,7 +117,7 @@
         "city": "Rajasthan",
         "country": "India",
         "id": 9,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": 73.061470,
             "latitude": 28.124223
@@ -131,7 +131,7 @@
         "city": "New Mexico",
         "country": "United States of America",
         "id": 10,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": -106.171667,
             "latitude": 32.779722
@@ -159,7 +159,7 @@
         "city": "Halle",
         "country": "Belgium",
         "id": 12,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": 4.290161,
             "latitude": 50.703634
@@ -173,7 +173,7 @@
         "city": "Conaripe",
         "country": "Chile",
         "id": 13,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": -71.874415,
             "latitude": -39.501578
@@ -187,7 +187,7 @@
         "city": "Rio Grande",
         "country": "Puerto Rico",
         "id": 14,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": -65.762014,
             "latitude": 18.339471
@@ -201,7 +201,7 @@
         "city": "Carretera a Reserva de Monteverde",
         "country": "Costa Rica",
         "id": 15,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": -84.788017,
             "latitude": 10.303097
@@ -229,7 +229,7 @@
         "city": "Alaska",
         "country": "United States of America",
         "id": 17,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": -151.006318,
             "latitude": 63.069078
@@ -243,7 +243,7 @@
         "city": "Kitayama",
         "country": "Japan",
         "id": 18,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": 138.727438,
             "latitude": 35.360722
@@ -257,7 +257,7 @@
         "city": "Kilimanjaro",
         "country": "Tanzania",
         "id": 19,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": 37.353201,
             "latitude": -3.076367
@@ -271,7 +271,7 @@
         "city": "San Carlos",
         "country": "Costa Rica",
         "id": 20,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": -84.703409,
             "latitude": 10.462078

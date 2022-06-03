@@ -26,7 +26,7 @@ struct ExploreView: View {
                         
                         ScrollView {
                             DisclosureGroup("Beaches", isExpanded: $topExpanded) {
-                                ForEach(destinations) { destination in
+                                ForEach(destinationData.destinations) { destination in
                                     if destination.category.rawValue == "Beaches" {
                                         NavigationLink {
                                             DestinationDetail(destination: destination)
@@ -39,7 +39,7 @@ struct ExploreView: View {
                             }
                             
                             DisclosureGroup("Deserts") {
-                                ForEach(destinations) { destination in
+                                ForEach(destinationData.destinations) { destination in
                                     if destination.category.rawValue == "Deserts" {
                                         NavigationLink {
                                             DestinationDetail(destination: destination)
@@ -52,7 +52,7 @@ struct ExploreView: View {
                             }
                             
                             DisclosureGroup("Forests") {
-                                ForEach(destinations) { destination in
+                                ForEach(destinationData.destinations) { destination in
                                     if destination.category.rawValue == "Forests" {
                                         NavigationLink {
                                             DestinationDetail(destination: destination)
@@ -65,7 +65,7 @@ struct ExploreView: View {
                             }
                             
                             DisclosureGroup("Mountains") {
-                                ForEach(destinations) { destination in
+                                ForEach(destinationData.destinations) { destination in
                                     if destination.category.rawValue == "Mountains" {
                                         NavigationLink {
                                             DestinationDetail(destination: destination)
@@ -84,6 +84,9 @@ struct ExploreView: View {
                 .padding(.top, 20)
                 .navigationBarHidden(true)
                 .ignoresSafeArea()
+                .onAppear {
+                    destinationData.destinations = getDestinations()
+                }
             }
         }
     }

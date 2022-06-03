@@ -40,7 +40,7 @@ struct BookmarkCardView: View {
                     .foregroundColor(Color("Muted"))
                     .padding(.bottom)
                     
-                    Label("Date", systemImage: "calendar")
+                    Label(destination.visitDate ?? "-", systemImage: "calendar")
                         .frame(maxWidth: .infinity)
                         .padding()
                         .background(Color("Primary"))
@@ -55,6 +55,9 @@ struct BookmarkCardView: View {
         .background(Color("Component"))
         .cornerRadius(16)
         .padding(.bottom)
+        .onAppear {
+            print(destination.visitDate)
+        }
     }
 }
 
