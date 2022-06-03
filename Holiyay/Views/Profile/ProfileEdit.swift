@@ -9,20 +9,24 @@ import SwiftUI
 
 struct ProfileEdit: View {
     @Binding var profile: Profile
+    @State var selectedCountry = 0
     
     var body: some View {
         List {
             HStack {
                 Spacer()
+                
                 Text("Keep your identity updated")
                     .font(.title2)
                     .fontWeight(.black)
+                
                 Spacer()
             }
             .padding(.bottom)
             
             VStack(alignment: .leading) {
                 Text("First Name").bold()
+                
                 TextField("First Name", text: $profile.firstName)
                     .textFieldStyle(.roundedBorder)
                     .textContentType(.name)
@@ -34,6 +38,7 @@ struct ProfileEdit: View {
             
             VStack(alignment: .leading) {
                 Text("Last Name").bold()
+                
                 TextField("Last Name", text: $profile.lastName)
                     .textFieldStyle(.roundedBorder)
                     .textContentType(.name)
@@ -43,16 +48,18 @@ struct ProfileEdit: View {
                     )
             }
             
-            VStack(alignment: .leading) {
+            VStack(alignment: .leading, spacing: 10) {
                 Text("Country of Domicile").bold()
                 
-                Picker("Country of Domicile", selection: $profile.countryOfDomicile) {
-                    ForEach(0..<profile.countryOfDomicile.count) {
-                        Text(profile.countryOfDomicile[$0])
-                    }
-                }
-                .pickerStyle(.menu)
+                Picker("Country of Domicile", selection: $selectedCountry, content: {
+                    ForEach(0..<profile.countryOfDomicile.count, content: { index in
+                        Text(profile.countryOfDomicile[index])
+                    })
+                })
+                    .pickerStyle(.menu)
+//                Text("Selected country: \(selectedCountry)")
             }
+            
             
             VStack(alignment: .leading, spacing: 10) {
                 Text("Gender").bold()
@@ -75,6 +82,15 @@ struct ProfileEdit: View {
                 }
                 .pickerStyle(.menu)
             }
+            
+            //            Button {
+            //
+            //            } label: {
+            //                Label("Confirm Changes", systemImage: "person.fill.checkmark")
+            //                    .frame(maxWidth: .infinity)
+            //            }
+            //            .buttonStyle(PrimaryButton())
+            //            .padding(.top)
         }
         .listStyle(.sidebar)
     }

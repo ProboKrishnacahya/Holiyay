@@ -10,10 +10,11 @@ import Foundation
 struct Profile {
     var firstName: String
     var lastName: String
+    var selectedCountry: String
     var gender = Gender.male
     var age: Int
     
-    static let `default` = Profile(firstName: "Probo", lastName: "Krishnacahya", age: 19)
+    static let `default` = Profile(firstName: "Probo", lastName: "Krishnacahya", selectedCountry: "Indonesia", age: 19)
     
     var countryOfDomicile: [String] = [
         "Afghanistan",
@@ -243,4 +244,6 @@ struct Profile {
         
         var id: String { rawValue }
     }
+    
+    //    var visitDate = Date()
 }

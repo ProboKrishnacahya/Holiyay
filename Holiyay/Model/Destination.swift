@@ -30,11 +30,6 @@ struct Destination: Hashable, Codable, Identifiable {
         Image(imageExploreBookmark)
     }
     
-//    public var imageDetail: String
-//    var horizontal: Image {
-//        Image(imageDetail)
-//    }
-    
     private var coordinates: Coordinates
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(

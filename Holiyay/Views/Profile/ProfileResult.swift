@@ -13,7 +13,8 @@ struct ProfileResult: View {
     var profile: Profile
     
     var body: some View {
-        NavigationView {
+        // NavigationView {
+        ScrollView {
             VStack {
                 (Text("Hello, ") +
                  Text("\(profile.firstName) \(profile.lastName) \u{1F44B}"))
@@ -41,7 +42,7 @@ struct ProfileResult: View {
                         (Text("\(Image(systemName: "flag.fill"))  Country of Domicile") +
                          Text("                        "))
                             .bold()
-                        Text(profile.lastName)
+                        Text(profile.selectedCountry)
                             .foregroundColor(Color("Muted"))
                         
                         Text("\(Image(systemName: "figure.stand"))  Gender")
@@ -63,14 +64,13 @@ struct ProfileResult: View {
                 .foregroundColor(.white)
                 .cornerRadius(16)
             }
-            .frame(maxHeight: .infinity, alignment: .top)
-            .padding(.top)
-            .navigationBarHidden(true)
+            .frame(maxHeight: .infinity)
         }
     }
 }
+//}
 
-struct ProfileView_Previews: PreviewProvider {
+struct ProfileResult_Previews: PreviewProvider {
     static var previews: some View {
         ProfileResult(profile: Profile.default)
             .environmentObject(DestinationData())

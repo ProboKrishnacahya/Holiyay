@@ -8,79 +8,70 @@
 import SwiftUI
 
 struct ProfileView: View {
-    @Environment(\.editMode) var editMode
     @EnvironmentObject var destinationData: DestinationData
-    @State private var draftProfile = Profile.default
+    @State private var showingProfile = false
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            HStack {
-                if editMode?.wrappedValue == .active {
-                    Button("Cancel", role: .cancel) {
-                        draftProfile = destinationData.profile
-                        editMode?.animation().wrappedValue = .inactive
+        NavigationView {
+            VStack {
+                Text("")
+                    .toolbar {
+                        Button {
+                            showingProfile.toggle()
+                        } label: {
+                            Label("Edit Profile", systemImage: "pencil")
+                        }
                     }
-                }
-                Spacer()
-                ShowEditProfileSheets()
-            }
-            
-            if editMode?.wrappedValue == .inactive {
+                    .sheet(isPresented: $showingProfile) {
+                        ProfileHost()
+                            .environmentObject(destinationData)
+                    }
+                
                 ProfileResult(profile: destinationData.profile)
-            } else {
-                ProfileEdit(profile: $draftProfile)
-                    .onAppear {
-                        draftProfile = destinationData.profile
-                    }
-                    .onDisappear {
-                        destinationData.profile = draftProfile
-                    }
             }
-        }
-        .padding()
-    }
-}
-
-struct ShowEditProfileSheets: View {
-    @State private var showingPopover = false
-    @EnvironmentObject var destinationData: DestinationData
-    
-    var body: some View {
-        Button {
-            showingPopover = true
-        } label: {
-            Image(systemName: "pencil")
-                .font(.system(size: 22, weight: .medium, design: .default))
-        }
-        .popover(isPresented: $showingPopover) {
-            HStack {
-                Button {
-                    showingPopover = false
-                } label: {
-                    Text("Cancel").bold()
-                }
-                Spacer()
-            }
-            .padding([.top, .leading])
-            
-            ProfileEdit(profile: .constant(.default))
-            
-            Button {
-                showingPopover = false
-            } label: {
-                Label("Confirm Changes", systemImage: "person.fill.checkmark")
-                    .frame(maxWidth: .infinity)
-            }
-            .buttonStyle(PrimaryButton())
-            .padding([.horizontal, .bottom])
         }
     }
 }
 
-struct ProfileHost_Previews: PreviewProvider {
+//struct ShowEditProfileSheets: View {
+//    @State private var showingPopover = false
+//    @EnvironmentObject var destinationData: DestinationData
+//    
+//    var body: some View {
+//        Button {
+//            showingPopover = true
+//        } label: {
+//            Image(systemName: "pencil")
+//                .font(.system(size: 22, weight: .medium, design: .default))
+//        }
+//        .popover(isPresented: $showingPopover) {
+//            HStack {
+//                Button {
+//                    showingPopover = false
+//                } label: {
+//                    Text("Cancel").bold()
+//                }
+//                Spacer()
+//            }
+//            .padding([.top, .leading])
+//            
+//            ProfileEdit(profile: .constant(.default))
+//            
+//            Button {
+//                showingPopover = false
+//            } label: {
+//                Label("Confirm Changes", systemImage: "person.fill.checkmark")
+//                    .frame(maxWidth: .infinity)
+//            }
+//            .buttonStyle(PrimaryButton())
+//            .padding([.horizontal, .bottom])
+//        }
+//    }
+//}
+
+struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
         ProfileView()
             .environmentObject(DestinationData())
     }
 }
-
