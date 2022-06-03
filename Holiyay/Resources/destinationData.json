@@ -154,60 +154,60 @@
         "imageExploreBookmark": "arashiyama_bamboo"
     },
     {
-        "name": "Arashiyama Bamboo",
+        "name": "Hallerbos",
         "category": "Forests",
-        "city": "Kyoto",
-        "country": "Japan",
+        "city": "Halle",
+        "country": "Belgium",
         "id": 12,
         "isBookmark": true,
         "coordinates": {
-            "longitude": 135.671538,
-            "latitude": 35.016818
+            "longitude": 4.290161,
+            "latitude": 50.703634
         },
-        "description": "Bamboo Forest, Arashiyama Bamboo Grove or Sagano Bamboo Forest, is a natural forest of bamboo in Arashiyama, Kyoto, Japan. The forest consists mostly of Moso Bamboo (Phyllostachys edulis) and consists of several pathways for tourists and visitors. The Ministry of the Environment considers it a part of the soundscape of Japan. Prior to 2015 there was a charge to access the forest. The forest is not far from Tenryū-ji Temple, which is the location of Rinzai School, and the famous Nonomiya Shrine.",
-        "imageExploreBookmark": "arashiyama_bamboo"
+        "description": "The Hallerbos is a forest in Belgium, covering an area of 552 ha. It is mostly situated in the municipality of Halle, in Flemish Brabant and has also a little part in Walloon Brabant. The forest is known in the region for its bluebell carpet which covers the forest floor for a few weeks each spring, attracting many visitors. Visitors can reach there either by their own vehicle or through public transportation.",
+        "imageExploreBookmark": "hallerbos"
     },
     {
-        "name": "Arashiyama Bamboo",
+        "name": "Termas Geometricas",
         "category": "Forests",
-        "city": "Kyoto",
-        "country": "Japan",
+        "city": "Conaripe",
+        "country": "Chile",
         "id": 13,
         "isBookmark": true,
         "coordinates": {
-            "longitude": 135.671538,
-            "latitude": 35.016818
+            "longitude": -71.874415,
+            "latitude": -39.501578
         },
-        "description": "Bamboo Forest, Arashiyama Bamboo Grove or Sagano Bamboo Forest, is a natural forest of bamboo in Arashiyama, Kyoto, Japan. The forest consists mostly of Moso Bamboo (Phyllostachys edulis) and consists of several pathways for tourists and visitors. The Ministry of the Environment considers it a part of the soundscape of Japan. Prior to 2015 there was a charge to access the forest. The forest is not far from Tenryū-ji Temple, which is the location of Rinzai School, and the famous Nonomiya Shrine.",
-        "imageExploreBookmark": "arashiyama_bamboo"
+        "description": "The Geometric Hot Springs take advantage of more than 60 sources of pure thermal water that spring up naturally at 80oC of temperature, in a previously inaccessible ravine, immersed in the middle of the native forests of the Villarrica Sur National Park, near the town of Coñaripe, at km 16 of the road that crosses the Park, between Coñaripe Geometric Hot Springs were designed by Germán del Sol, who through the design and construction of wood and natural materials wanted to bring the nature of the Thermal Baths to geometry to achieve a harmonious whole.",
+        "imageExploreBookmark": "termas_geometricas"
     },
     {
-        "name": "Arashiyama Bamboo",
+        "name": "El Yunque",
         "category": "Forests",
-        "city": "Kyoto",
-        "country": "Japan",
+        "city": "Rio Grande",
+        "country": "Puerto Rico",
         "id": 14,
         "isBookmark": true,
         "coordinates": {
-            "longitude": 135.671538,
-            "latitude": 35.016818
+            "longitude": -65.762014,
+            "latitude": 18.339471
         },
-        "description": "Bamboo Forest, Arashiyama Bamboo Grove or Sagano Bamboo Forest, is a natural forest of bamboo in Arashiyama, Kyoto, Japan. The forest consists mostly of Moso Bamboo (Phyllostachys edulis) and consists of several pathways for tourists and visitors. The Ministry of the Environment considers it a part of the soundscape of Japan. Prior to 2015 there was a charge to access the forest. The forest is not far from Tenryū-ji Temple, which is the location of Rinzai School, and the famous Nonomiya Shrine.",
-        "imageExploreBookmark": "arashiyama_bamboo"
+        "description": "El Yunque National Forest (Spanish: Bosque Nacional El Yunque), formerly known as the Caribbean National Forest (or Bosque Nacional del Caribe), is a forest located in northeastern Puerto Rico. It is the only tropical rainforest in the United States National Forest System and the United States Forest Service. El Yunque National Rainforest is located on the slopes of the Sierra de Luquillo mountains, encompassing more than 28,000 acres (43.753 mi2 or 113.32 km2) of land, making it the largest block of public land in Puerto Rico.",
+        "imageExploreBookmark": "el_yunque"
     },
     {
-        "name": "Arashiyama Bamboo",
+        "name": "Monteverde",
         "category": "Forests",
-        "city": "Kyoto",
-        "country": "Japan",
+        "city": "Carretera a Reserva de Monteverde",
+        "country": "Costa Rica",
         "id": 15,
         "isBookmark": true,
         "coordinates": {
-            "longitude": 135.671538,
-            "latitude": 35.016818
+            "longitude": -84.788017,
+            "latitude": 10.303097
         },
-        "description": "Bamboo Forest, Arashiyama Bamboo Grove or Sagano Bamboo Forest, is a natural forest of bamboo in Arashiyama, Kyoto, Japan. The forest consists mostly of Moso Bamboo (Phyllostachys edulis) and consists of several pathways for tourists and visitors. The Ministry of the Environment considers it a part of the soundscape of Japan. Prior to 2015 there was a charge to access the forest. The forest is not far from Tenryū-ji Temple, which is the location of Rinzai School, and the famous Nonomiya Shrine.",
-        "imageExploreBookmark": "arashiyama_bamboo"
+        "description": "The Monteverde Cloud Forest Reserve (Reserva Biológica Bosque Nuboso Monteverde) is a Costa Rican reserve located along the Cordillera de Tilarán within the Puntarenas and Alajuela provinces. Named after the nearby town of Monteverde and founded in 1972, the Reserve consists of over 10,500 hectares of cloud forest, the reserve is visited by roughly 70,000 visitors a year. The Reserve consists of 6 ecological zones, 90% of which are virgin forest.",
+        "imageExploreBookmark": "monteverde"
     },
     {
         "name": "Bromo",
@@ -224,59 +224,59 @@
         "imageExploreBookmark": "bromo"
     },
     {
-        "name": "Bromo",
+        "name": "Denali",
         "category": "Mountains",
-        "city": "Pasuruan",
-        "country": "Indonesia",
+        "city": "Alaska",
+        "country": "United States of America",
         "id": 17,
         "isBookmark": true,
         "coordinates": {
-            "longitude": 112.949927,
-            "latitude": -7.944869
+            "longitude": -151.006318,
+            "latitude": 63.069078
         },
-        "description": "Mount Bromo (Indonesian and Javanese: Gunung Bromo) is an active somma volcano and part of the Tengger mountains, in East Java, Indonesia. At 2,329 meters (7,641 feet) it is not the highest peak of the massif, but the most famous. The area is one of the most visited tourist destinations in East Java, and the volcano is included in the Bromo Tengger Semeru National Park. The name Bromo comes from the Javanese pronunciation of Brahma, the Hindu god of creation. Mount Bromo is located in the middle of a plain called 'Sea of Sand' (Javanese: Segara Wedi or Indonesian: Lautan Pasir), a nature reserve that has been protected since 1919.",
-        "imageExploreBookmark": "bromo"
+        "description": "Denali also known as Mount McKinley, its former official name) is the highest mountain peak in North America, with a summit elevation of 20,310 feet (6,190 m) above sea level. With a topographic prominence of 20,194 feet (6,155 m) and a topographic isolation of 4,621.1 miles (7,436.9 km), Denali is the third most prominent and third most isolated peak on Earth, after Mount Everest and Aconcagua. Located in the Alaska Range in the interior of the U.S. state of Alaska, Denali is the centerpiece of Denali National Park and Preserve.",
+        "imageExploreBookmark": "denali"
     },
     {
-        "name": "Bromo",
+        "name": "Fuji",
         "category": "Mountains",
-        "city": "Pasuruan",
-        "country": "Indonesia",
+        "city": "Kitayama",
+        "country": "Japan",
         "id": 18,
         "isBookmark": true,
         "coordinates": {
-            "longitude": 112.949927,
-            "latitude": -7.944869
+            "longitude": 138.727438,
+            "latitude": 35.360722
         },
-        "description": "Mount Bromo (Indonesian and Javanese: Gunung Bromo) is an active somma volcano and part of the Tengger mountains, in East Java, Indonesia. At 2,329 meters (7,641 feet) it is not the highest peak of the massif, but the most famous. The area is one of the most visited tourist destinations in East Java, and the volcano is included in the Bromo Tengger Semeru National Park. The name Bromo comes from the Javanese pronunciation of Brahma, the Hindu god of creation. Mount Bromo is located in the middle of a plain called 'Sea of Sand' (Javanese: Segara Wedi or Indonesian: Lautan Pasir), a nature reserve that has been protected since 1919.",
-        "imageExploreBookmark": "bromo"
+        "description": "Mount Fuji, located on the island of Honshū, is the highest mountain in Japan, standing 3,776.24 m. It is the second-highest volcano located on an island in Asia, and seventh-highest peak of an island on Earth. Mount Fuji is an active stratovolcano that last erupted from 1707 to 1708. The mountain is located about 100 km southwest of Tokyo and is visible from there on clear days.",
+        "imageExploreBookmark": "fuji"
     },
     {
-        "name": "Bromo",
+        "name": "Kilimanjaro",
         "category": "Mountains",
-        "city": "Pasuruan",
-        "country": "Indonesia",
+        "city": "Kilimanjaro",
+        "country": "Tanzania",
         "id": 19,
         "isBookmark": true,
         "coordinates": {
-            "longitude": 112.949927,
-            "latitude": -7.944869
+            "longitude": 37.353201,
+            "latitude": -3.076367
         },
-        "description": "Mount Bromo (Indonesian and Javanese: Gunung Bromo) is an active somma volcano and part of the Tengger mountains, in East Java, Indonesia. At 2,329 meters (7,641 feet) it is not the highest peak of the massif, but the most famous. The area is one of the most visited tourist destinations in East Java, and the volcano is included in the Bromo Tengger Semeru National Park. The name Bromo comes from the Javanese pronunciation of Brahma, the Hindu god of creation. Mount Bromo is located in the middle of a plain called 'Sea of Sand' (Javanese: Segara Wedi or Indonesian: Lautan Pasir), a nature reserve that has been protected since 1919.",
-        "imageExploreBookmark": "bromo"
+        "description": "Mount Kilimanjaro is a dormant volcano in Tanzania. It has three volcanic cones: Kibo, Mawenzi, and Shira. It is the highest mountain in Africa and the highest single free-standing mountain above sea level (Mauna Kea measured from the sea floor is higher) in the world: 5,895 metres (19,341 ft) above sea level and about 4,900 metres (16,100 ft) above its plateau base. It is the highest volcano in Africa and the Eastern Hemisphere.",
+        "imageExploreBookmark": "kilimanjaro"
     },
     {
-        "name": "Bromo",
+        "name": "Arenal",
         "category": "Mountains",
-        "city": "Pasuruan",
-        "country": "Indonesia",
+        "city": "San Carlos",
+        "country": "Costa Rica",
         "id": 20,
         "isBookmark": true,
         "coordinates": {
-            "longitude": 112.949927,
-            "latitude": -7.944869
+            "longitude": -84.703409,
+            "latitude": 10.462078
         },
-        "description": "Mount Bromo (Indonesian and Javanese: Gunung Bromo) is an active somma volcano and part of the Tengger mountains, in East Java, Indonesia. At 2,329 meters (7,641 feet) it is not the highest peak of the massif, but the most famous. The area is one of the most visited tourist destinations in East Java, and the volcano is included in the Bromo Tengger Semeru National Park. The name Bromo comes from the Javanese pronunciation of Brahma, the Hindu god of creation. Mount Bromo is located in the middle of a plain called 'Sea of Sand' (Javanese: Segara Wedi or Indonesian: Lautan Pasir), a nature reserve that has been protected since 1919.",
-        "imageExploreBookmark": "bromo"
+        "description": "Arenal Volcano (Spanish: Volcán Arenal) is an active andesitic stratovolcano in north-western Costa Rica around 90 km (56 mi) northwest of San José, in the province of Alajuela, canton of San Carlos, and district of La Fortuna. The Arenal volcano measures at least 1,633 metres (5,358 ft) high. It is conically shaped with a crater 140 metres (460 ft) in diameter. Geologically, Arenal is considered a young volcano and it is estimated to be less than 7,500 years old. It is also known as 'Pan de Azúcar', 'Canaste', 'Volcan Costa Rica', 'Volcan Río Frío' or 'Guatusos Peak'.",
+        "imageExploreBookmark": "arenal"
     }
 ]
