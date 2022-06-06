@@ -8,36 +8,31 @@
 import SwiftUI
 
 struct ProfileHost: View {
-    @Environment(\.editMode) var editMode
     @EnvironmentObject var destinationData: DestinationData
     @State private var draftProfile = Profile.default
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             HStack {
-                if editMode?.wrappedValue == .active {
-                    Button("Cancel", role: .cancel) {
-                        draftProfile = destinationData.profile
-                        editMode?.animation().wrappedValue = .inactive
-                    }
+                Button("Cancel", role: .cancel) {
+                    draftProfile = destinationData.profile
+                    presentationMode.wrappedValue.dismiss()
                 }
                 
                 Spacer()
                 
-                EditButton()
+                Button("Done") {
+                    presentationMode.wrappedValue.dismiss()
+                }
             }
-            
-            if editMode?.wrappedValue == .inactive {
-                ProfileResult(profile: destinationData.profile)
-            } else {
-                ProfileEdit(profile: $draftProfile)
-                    .onAppear {
-                        draftProfile = destinationData.profile
-                    }
-                    .onDisappear {
-                        destinationData.profile = draftProfile
-                    }
-            }
+            ProfileEdit(profile: $draftProfile)
+                .onAppear {
+                    draftProfile = destinationData.profile
+                }
+                .onDisappear {
+                    destinationData.profile = draftProfile
+                }
         }
         .padding()
     }

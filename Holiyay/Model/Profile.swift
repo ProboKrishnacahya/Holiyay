@@ -14,7 +14,7 @@ struct Profile {
     var gender = Gender.male
     var age: Int
     
-    static let `default` = Profile(firstName: "Probo", lastName: "Krishnacahya", selectedCountry: "Afghanistan", age: 19)
+    static let `default` = Profile(firstName: "Probo", lastName: "Krishnacahya", selectedCountry: "Indonesia", age: 19)
     
     var countryOfDomicile: [String] = [
         "Afghanistan",

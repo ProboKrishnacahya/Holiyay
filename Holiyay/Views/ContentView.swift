@@ -38,9 +38,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
             .preferredColorScheme(.dark)
             .environmentObject(DestinationData())
-        ContentView()
-            .preferredColorScheme(.light)
-            .environmentObject(DestinationData())
     }
 }
 

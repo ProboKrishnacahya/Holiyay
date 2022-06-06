@@ -13,7 +13,6 @@ struct ProfileResult: View {
     var profile: Profile
     
     var body: some View {
-        // NavigationView {
         ScrollView {
             VStack {
                 (Text("Hello, ") +
@@ -68,7 +67,6 @@ struct ProfileResult: View {
         }
     }
 }
-//}
 
 struct ProfileResult_Previews: PreviewProvider {
     static var previews: some View {

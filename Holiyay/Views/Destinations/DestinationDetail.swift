@@ -54,13 +54,11 @@ struct DestinationDetail: View {
                 
                 Text(destination.description)
                     .padding(.bottom)
-                
-                BookmarkButton(isSet: $destinationData.destinations[destinationIndex].isBookmark)
-                
+               
                 Button {
                     isPresented.toggle()
                 } label: {
-                    Label("Plan The Visit Date", systemImage: "calendar")
+                    Label(destination.visitDate ?? "Plan The Visit Date", systemImage: "calendar")
                         .frame(maxWidth: .infinity)
                 }
                 .buttonStyle(PrimaryButton())
@@ -87,7 +85,7 @@ struct FullScreenModalView: View {
 
     func dateFormat() -> String {
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "YY/MM/dd"
+        dateFormatter.dateFormat = "dd MMM yyyy"
         return dateFormatter.string(from: visitDate)
     }
     
@@ -111,7 +109,7 @@ struct FullScreenModalView: View {
                 .scaledToFit()
                 .padding(.bottom)
             
-            DatePicker(selection: $visitDate, in: ...Date(), displayedComponents: .date) {
+            DatePicker(selection: $visitDate, in: Date.now..., displayedComponents: .date) {
             }
             .onChange(of: visitDate) { _ in
                 MyBookmark.setup()
@@ -124,18 +122,6 @@ struct FullScreenModalView: View {
             .clipped()
             .labelsHidden()
             .padding(.horizontal)
-            
-//            DatePicker(selection: $visitDate, in: ...Date(), displayedComponents: .date) {
-//            }
-//            .datePickerStyle(GraphicalDatePickerStyle())
-//            .accentColor(Color("Primary"))
-//            .clipped()
-//            .labelsHidden()
-//            .padding(.horizontal)
-//            .onChange(of: visitDate) { _ in
-//                destinationData.destinations[destinationIndex].visitDate = destinationData.destinations[destinationIndex][visitDate]
-//
-//            }
             
             Text("Set Visit Date on: \(visitDate.formatted(date: .long, time: .omitted))")
                 .foregroundColor(Color("Muted"))

@@ -67,7 +67,6 @@ struct ProfileEdit: View {
                     profile.selectedCountry = profile.countryOfDomicile[selectedCountry]
                 }
                 .pickerStyle(.menu)
-                //                Text("Selected country: \(selectedCountry)")
             }
             
             VStack(alignment: .leading, spacing: 10) {
@@ -91,15 +90,6 @@ struct ProfileEdit: View {
                 }
                 .pickerStyle(.menu)
             }
-            
-            //            Button {
-            //
-            //            } label: {
-            //                Label("Confirm Changes", systemImage: "person.fill.checkmark")
-            //                    .frame(maxWidth: .infinity)
-            //            }
-            //            .buttonStyle(PrimaryButton())
-            //            .padding(.top)
         }
         .listStyle(.sidebar)
     }

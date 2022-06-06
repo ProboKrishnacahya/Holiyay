@@ -27,7 +27,7 @@ struct ExploreCardView: View {
                     .font(.system(size: 16, weight: .medium, design: .default))
                     .lineLimit(1)
                 
-                Label("Date", systemImage: "calendar")
+                Label(destination.visitDate ?? "Select Date", systemImage: "calendar")
                     .frame(maxWidth: .infinity)
                     .padding(10)
                     .background(Color("Primary"))

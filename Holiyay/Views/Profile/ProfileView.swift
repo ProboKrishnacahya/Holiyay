@@ -33,42 +33,6 @@ struct ProfileView: View {
     }
 }
 
-//struct ShowEditProfileSheets: View {
-//    @State private var showingPopover = false
-//    @EnvironmentObject var destinationData: DestinationData
-//    
-//    var body: some View {
-//        Button {
-//            showingPopover = true
-//        } label: {
-//            Image(systemName: "pencil")
-//                .font(.system(size: 22, weight: .medium, design: .default))
-//        }
-//        .popover(isPresented: $showingPopover) {
-//            HStack {
-//                Button {
-//                    showingPopover = false
-//                } label: {
-//                    Text("Cancel").bold()
-//                }
-//                Spacer()
-//            }
-//            .padding([.top, .leading])
-//            
-//            ProfileEdit(profile: .constant(.default))
-//            
-//            Button {
-//                showingPopover = false
-//            } label: {
-//                Label("Confirm Changes", systemImage: "person.fill.checkmark")
-//                    .frame(maxWidth: .infinity)
-//            }
-//            .buttonStyle(PrimaryButton())
-//            .padding([.horizontal, .bottom])
-//        }
-//    }
-//}
-
 struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
         ProfileView()

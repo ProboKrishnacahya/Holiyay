@@ -79,13 +79,25 @@ struct BookmarkView: View {
                             }
                         }
                     
-                    ForEach(filteredDestinations) { destination in
+                    if filteredDestinations.isEmpty {
+                        VStack {
+                        Image("empty_bookmark")
+                            .resizable()
+                            .scaledToFit()
+                            .padding(.vertical)
+                        Text("Oops, your Bookmark still empty.\nPlease add your Bookmark first \u{1F601}")
+                            .font(.title2)
+                        }
+                        .padding(.top, 32)
+                    } else {
+                        ForEach(filteredDestinations) { destination in
                         NavigationLink {
                             DestinationDetail(destination: destination)
                         } label: {
                             BookmarkCardView(destination: destination)
                         }
                         .tag(destination)
+                        }
                     }
                 }
             }

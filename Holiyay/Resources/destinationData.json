@@ -5,7 +5,7 @@
         "city": "Badung",
         "country": "Indonesia",
         "id": 1,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": 115.185830,
             "latitude": -8.845558
@@ -75,7 +75,7 @@
         "city": "Navajo County",
         "country": "United States of America",
         "id": 6,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": -110.348000,
             "latitude": 36.874000
@@ -145,7 +145,7 @@
         "city": "Kyoto",
         "country": "Japan",
         "id": 11,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": 135.671538,
             "latitude": 35.016818
@@ -215,7 +215,7 @@
         "city": "Pasuruan",
         "country": "Indonesia",
         "id": 16,
-        "isBookmark": true,
+        "isBookmark": false,
         "coordinates": {
             "longitude": 112.949927,
             "latitude": -7.944869
