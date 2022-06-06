@@ -12,20 +12,22 @@ struct ProfileEdit: View {
     @State var selectedCountry = 0
     
     var body: some View {
-        List {
             HStack {
                 Spacer()
                 
                 Text("Keep your identity updated")
                     .font(.title2)
                     .fontWeight(.black)
+                    .padding(.top)
                 
                 Spacer()
             }
             .padding(.bottom)
             
+        VStack(alignment: .leading, spacing: 16) {
             VStack(alignment: .leading) {
-                Text("First Name").bold()
+                Text("First Name")
+                    .bold()
                 
                 TextField("First Name", text: $profile.firstName)
                     .textFieldStyle(.roundedBorder)
@@ -37,7 +39,8 @@ struct ProfileEdit: View {
             }
             
             VStack(alignment: .leading) {
-                Text("Last Name").bold()
+                Text("Last Name")
+                    .bold()
                 
                 TextField("Last Name", text: $profile.lastName)
                     .textFieldStyle(.roundedBorder)
@@ -48,8 +51,9 @@ struct ProfileEdit: View {
                     )
             }
             
-            VStack(alignment: .leading, spacing: 10) {
-                Text("Country of Domicile").bold()
+            VStack(alignment: .leading, spacing: 8) {
+                Text("Country of Domicile")
+                    .bold()
                 
                 Picker(
                     "Country of Domicile",
@@ -69,8 +73,9 @@ struct ProfileEdit: View {
                 .pickerStyle(.menu)
             }
             
-            VStack(alignment: .leading, spacing: 10) {
-                Text("Gender").bold()
+            VStack(alignment: .leading, spacing: 8) {
+                Text("Gender")
+                    .bold()
                 
                 Picker("Gender", selection: $profile.gender) {
                     ForEach(Profile.Gender.allCases) { gender in
@@ -81,7 +86,8 @@ struct ProfileEdit: View {
             }
             
             VStack(alignment: .leading) {
-                Text("Age").bold()
+                Text("Age")
+                    .bold()
                 
                 Picker("Your age", selection: $profile.age) {
                     ForEach(1...100, id: \.self) { age in
@@ -91,7 +97,9 @@ struct ProfileEdit: View {
                 .pickerStyle(.menu)
             }
         }
-        .listStyle(.sidebar)
+        .frame(alignment: .top)
+        
+        Spacer()
     }
 }
 
